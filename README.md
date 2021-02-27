@@ -40,3 +40,10 @@ Finally, in order to check what I studied so far, I solved the first exercise of
 <p align="center">
   <img src="https://github.com/francescodisalvo05/66DaysOfData/blob/main/images/day2.png" height="400px"/>
 </p>
+
+`DAY-3`: Few days ago I was wondering how to deal with huge quantity of data (in the order of GBs). So, Today I saw an interesting YouTube video made by DecisionForest regarding the memory optimization in pandas. The first issue in Pandas is that it uses by default "int64" or "float64", therefore, a first improvement could be made by downcasting these features into "int32" and "int32" (or even 16). By using this approach he was able to save around 40% of memory on a huge dataset. 
+
+The second step is to save the dataframe into some other optimized format. He proposed "parquet", an Apache Hadoop’s columnar storage format, but I also discovered many others on the following blogpost that I would like to test much more in detail!
+
+> * Youtube video: https://www.youtube.com/watch?v=-cLPasRzJeY&t
+> * Blogpost : https://towardsdatascience.com/the-best-format-to-save-pandas-data-414dca023e0d
