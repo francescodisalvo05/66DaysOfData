@@ -50,7 +50,9 @@ The second step is to save the dataframe into some other optimized format. He pr
 
 `DAY-4`: Today I studied the third chapter of "Advances in Financial Machine Learning" that focuses on how to label financial data. 
 
-One of the biggest mistakes is to label observations with fixed thresholds. In fact, we should set the "take profit" and "stop loss" by using function of the risk! A possible way of labeling is with the so called "triple-barrier method", where the aim is to label an observation according to the first barrier touched. So, we buy if we first hit the upper barrier, we sell if we first hit the lower one and we may decide to buy or sell if we hit the middle bar. This decision can be influenced by the stock volatility. From the picture below, we can distinguis: (a) starting date, (b) stop-loss, (c) take profit, (d) starting date plus the number of days you are planning to hold it [1]
+One of the biggest mistakes is to label observations with fixed thresholds. In fact, we should set the "take profit" and "stop loss" by using function of the risk! A possible way of labeling is with the so called "triple-barrier method", where the aim is to label an observation according to the first barrier touched. There are two horizontal bars (stop loss and take profit) and one vertical bar (expiration limit).
+
+We buy if we first hit the upper barrier, we sell if we first hit the lower one and we may decide to buy or sell if we hit the middle bar. This decision can be influenced by the stock volatility. From the picture below, we can distinguis: (a) starting date, (b) stop-loss, (c) take profit, (d) starting date plus the number of days you are planning to hold it [1]
 
 The previous labeling alone is not so effective, in fact we need to know how much we should bet (bet size). This is called by the author "meta labeling". It helps increasing the f1-score, because we build a first model with an higher recall and then we correct the low precision by the meta labeling approach. In fact, it tries to filter out the false positive!
 
