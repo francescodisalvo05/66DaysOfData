@@ -47,3 +47,25 @@ The second step is to save the dataframe into some other optimized format. He pr
 
 > * Youtube video: https://www.youtube.com/watch?v=-cLPasRzJeY&t
 > * Blogpost : https://towardsdatascience.com/the-best-format-to-save-pandas-data-414dca023e0d
+
+`DAY-4`: Today I studied the third chapter of "Advances in Financial Machine Learning" that focuses on how to label financial data. 
+
+One of the biggest mistakes is to label observations with fixed thresholds. In fact, we should set the "take profit" and "stop loss" by using function of the risk! A possible way of labeling is with the so called "triple-barrier method", where the aim is to label an observation according to the first barrier touched. So, we buy if we first hit the upper barrier, we sell if we first hit the lower one and we may decide to buy or sell if we hit the middle bar. This decision can be influenced by the stock volatility. From the picture below, we can distinguis: (a) starting date, (b) stop-loss, (c) take profit, (d) starting date plus the number of days you are planning to hold it [1]
+
+The previous labeling alone is not so effective, in fact we need to know how much we should bet (bet size). This is called by the author "meta labeling". It helps increasing the f1-score, because we build a first model with an higher recall and then we correct the low precision by the meta labeling approach. In fact, it tries to filter out the false positive!
+
+In short:
+1. Apply the triple-barrier method 
+2. Generate the meta-labels
+3. Use a binary classifier (buy/sell)  on the meta-labels in order to improve the performances
+
+Tomorrow I will try to implement these steps and let's see what I will obtain! 
+
+<p align="center">
+  <img src="https://github.com/francescodisalvo05/66DaysOfData/blob/main/images/day4.jpg" height="400px"/>
+</p>
+
+
+> * Book : [Advances In Financial Machine Learning](https://www.amazon.it/Advances-Financial-Machine-Learning-Marcos/dp/1119482089/ref=sr_1_1?__mk_it_IT=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=ZMLKR6L4EISG&dchild=1&keywords=advances+in+financial+machine+learning&qid=1614284766&sprefix=advances+in+fin%2Caps%2C198&sr=8-1)
+> * Figure and [1]: https://towardsdatascience.com/the-triple-barrier-method-251268419dcd
+> * Another useful resource : https://ai.plainenglish.io/start-using-better-labels-for-financial-machine-learning-6eeac691e660
