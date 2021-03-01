@@ -71,3 +71,18 @@ Tomorrow I will try to implement these steps and let's see what I will obtain!
 > * Book : [Advances In Financial Machine Learning](https://www.amazon.it/Advances-Financial-Machine-Learning-Marcos/dp/1119482089/ref=sr_1_1?__mk_it_IT=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=ZMLKR6L4EISG&dchild=1&keywords=advances+in+financial+machine+learning&qid=1614284766&sprefix=advances+in+fin%2Caps%2C198&sr=8-1)
 > * Figure and [1]: https://towardsdatascience.com/the-triple-barrier-method-251268419dcd
 > * Another useful resource : https://ai.plainenglish.io/start-using-better-labels-for-financial-machine-learning-6eeac691e660
+
+`DAY-5` : Today I was approaching the implementation of triple barrier method and meta labeling but I found another interesting topic to focus on: the Bollinger Bands. 
+
+They are a technical analysis tool for generating oversold and overbought signals. In particular they give signals for eventual long or short positions. In a nutshell, you take a "long" position if you believe that the stock will rise up, and on the contrary you take a "short" position if you believe that ste stock value will decrease. 
+
+I took the opportunity to work with the dollar bars (bars indexed by the traded dollar volume) thanks to a new implementation that I found in a very well done article [1]. Then, I implemented a simple script for defining these short or long positions and finally I plotted the result! 
+
+<p align="center">
+  <img src="https://github.com/francescodisalvo05/66DaysOfData/blob/main/images/Day5.png" height="400px"/>
+</p>
+
+> * Jupyter notebook : https://github.com/francescodisalvo05/66DaysOfData/blob/main/notebooks/Day5.ipynb
+> * [1] article : https://ai.plainenglish.io/start-using-better-labels-for-financial-machine-learning-6eeac691e660
+> * Bollinger Bands : https://www.investopedia.com/terms/b/bollingerbands.asp
+> * Long and Short positions : https://www.investor.gov/introduction-investing/investing-basics/how-stock-markets-work/stock-purchases-and-sales-long-and 
