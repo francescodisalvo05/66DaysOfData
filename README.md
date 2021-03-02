@@ -86,3 +86,25 @@ I took the opportunity to work with the dollar bars (bars indexed by the traded 
 > * [1] article : https://ai.plainenglish.io/start-using-better-labels-for-financial-machine-learning-6eeac691e660
 > * Bollinger Bands : https://www.investopedia.com/terms/b/bollingerbands.asp
 > * Long and Short positions : https://www.investor.gov/introduction-investing/investing-basics/how-stock-markets-work/stock-purchases-and-sales-long-and 
+
+`DAY-6` : Today I jumped to the 6th chapter of "Advances in Financial Machine Learning" by Marcos Lopez de Prado that covers "Ensemble methods". 
+
+In particular I have dwelt on the difference between "Boosting" and "Bagging". At first reading I haven't fully understood the topic, so I decided to read it from the following very well done article : https://quantdare.com/what-is-the-difference-between-bagging-and-boosting/
+
+Both bagging and boosting are ensemble learning techniques, it means that they combine several base model in order to improve the overall performances. Here's the main features:
+
+* Learners : they both get N learners by generating additional data in the training stage and the training sets are obtained by random sample with replacement. In bagging, any element has the same probability to be considered, whereas in boosting there are weights associated to the sampling process. 
+* Weights : in bagging each model is indipendent, whereas in boosting each model takes into account the previous classifiers' success.
+* Classificaton : each learner will make his own predictions. The final classification will be given by a simple average in bagging and by a weighted average in boosting. 
+
+So, they both decrease the variance but boosting tries also to construct a stronger model. 
+
+This was just a gentle introduction of the topic, but if you want to know more, I found a very detailed article on TowardsDataScience! 
+
+<p align="center">
+  <img src="https://github.com/francescodisalvo05/66DaysOfData/blob/main/images/day6.png" height="200px"/>
+</p>
+
+> * Book : [Advances In Financial Machine Learning](https://www.amazon.it/Advances-Financial-Machine-Learning-Marcos/dp/1119482089/ref=sr_1_1?__mk_it_IT=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=ZMLKR6L4EISG&dchild=1&keywords=advances+in+financial+machine+learning&qid=1614284766&sprefix=advances+in+fin%2Caps%2C198&sr=8-1)
+> * https://quantdare.com/what-is-the-difference-between-bagging-and-boosting/
+> * https://towardsdatascience.com/ensemble-methods-bagging-boosting-and-stacking-c9214a10a205
