@@ -108,3 +108,24 @@ This was just a gentle introduction of the topic, but if you want to know more, 
 > * Book : [Advances In Financial Machine Learning](https://www.amazon.it/Advances-Financial-Machine-Learning-Marcos/dp/1119482089/ref=sr_1_1?__mk_it_IT=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=ZMLKR6L4EISG&dchild=1&keywords=advances+in+financial+machine+learning&qid=1614284766&sprefix=advances+in+fin%2Caps%2C198&sr=8-1)
 > * https://quantdare.com/what-is-the-difference-between-bagging-and-boosting/
 > * https://towardsdatascience.com/ensemble-methods-bagging-boosting-and-stacking-c9214a10a205
+
+`DAY-7`: Today I studied the 7th chapter of "Advances in Financial Machine Learning" by Marcos Lopez de Prado, devoted to "Cross Validation in Finance". 
+
+I was thinking about K-Fold with finance data for a while, and today De Prado confirmed my concerns. In fact he first pointed out "why k-fold fails in finance". The main reasons are basically two:
+
+* in financial data we cannot leverage on the hypothesis that the observations are **IID** (Independent and Identically Distributed),
+* the testing sets are used multiple times in order to develop the model, so we may induct some bias
+
+Of course, since we'll have overlapping observations, we may observe the so called phenomenon of "Data Leakage" (when we use in training data some information that we do not expect during the prediction). 
+
+A first improvement can be made by "purging the training set", so we remove from the training set all observations whose labels are overlapped with the ones contained in the test set. If this approach is not enough for preventing the data leakage, De Prado proposes to impose an embargo on training observations after every test set. The idea is to define an embargo period ( typically 0.01T - where T is the number of bars) after every test set, in which we discard training samples! It is much more clear on the following picture.
+
+I tried to implement it on my own but I got stuck for a while, so I will try again tomorrow! 
+
+<p align="center">
+  <img src="https://github.com/francescodisalvo05/66DaysOfData/blob/main/images/day7.jpg" height="300px"/>
+</p>
+
+> * Book : [Advances In Financial Machine Learning](https://www.amazon.it/Advances-Financial-Machine-Learning-Marcos/dp/1119482089/ref=sr_1_1?__mk_it_IT=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=ZMLKR6L4EISG&dchild=1&keywords=advances+in+financial+machine+learning&qid=1614284766&sprefix=advances+in+fin%2Caps%2C198&sr=8-1)
+> * Picture and slides : https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3257420
+> * See more : https://medium.com/@samuel.monnier/cross-validation-tools-for-time-series-ffa1a5a09bf9
