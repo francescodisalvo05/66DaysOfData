@@ -130,4 +130,16 @@ I tried to implement it on my own but I got stuck for a while, so I will try aga
 > * Picture and slides : https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3257420
 > * See more : https://medium.com/@samuel.monnier/cross-validation-tools-for-time-series-ffa1a5a09bf9
 
+`DAY-8`: Today I played with Streamlit, a Python library that allows to easily create a web applications in a very simple way! 
+Think that this entire script took me just 52 lines. Streamlit also allows to host it on their servers for free, upon request.
+
+I also spent some time figuring out some cool features I can implement along the way. Any idea or feedback is always well received!
+
+<p align="center">
+  <img src="https://github.com/francescodisalvo05/66DaysOfData/blob/main/images/day8.jpg" height="500px"/>
+</p>
+
+
+> * Video : https://user-images.githubusercontent.com/66080706/110019754-1c7cbc80-7d29-11eb-9a25-37fe2fbbd8ac.mp4
+> * Code : https://github.com/francescodisalvo05/66DaysOfData/blob/main/notebooks-scripts/day8.py
 
