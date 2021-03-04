@@ -129,3 +129,5 @@ I tried to implement it on my own but I got stuck for a while, so I will try aga
 > * Book : [Advances In Financial Machine Learning](https://www.amazon.it/Advances-Financial-Machine-Learning-Marcos/dp/1119482089/ref=sr_1_1?__mk_it_IT=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=ZMLKR6L4EISG&dchild=1&keywords=advances+in+financial+machine+learning&qid=1614284766&sprefix=advances+in+fin%2Caps%2C198&sr=8-1)
 > * Picture and slides : https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3257420
 > * See more : https://medium.com/@samuel.monnier/cross-validation-tools-for-time-series-ffa1a5a09bf9
+
+
