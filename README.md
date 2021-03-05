@@ -143,3 +143,8 @@ I also spent some time figuring out some cool features I can implement along the
 > * Video : https://user-images.githubusercontent.com/66080706/110019754-1c7cbc80-7d29-11eb-9a25-37fe2fbbd8ac.mp4
 > * Code : https://github.com/francescodisalvo05/66DaysOfData/blob/main/notebooks-scripts/day8.py
 
+`DAY-9`: Today I was really busy, so I had a brief look at some possible technical indicators that could be implmented in python. 
+
+Here is the "top 7", according to Investopidia : https://www.investopedia.com/top-7-technical-analysis-tools-4773275
+
+Then, I came up with some interesting features to implement in the next days and I'll surely post here all the future updates!
