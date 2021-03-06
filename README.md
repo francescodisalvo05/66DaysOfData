@@ -148,3 +148,17 @@ I also spent some time figuring out some cool features I can implement along the
 Here is the "top 7", according to Investopidia : https://www.investopedia.com/top-7-technical-analysis-tools-4773275
 
 Then, I came up with some interesting features to implement in the next days and I'll surely post here all the future updates!
+
+`DAY-10`: Today I implemented the Moving Average, a technical analysis tool that tries to cut out the noise from the trend, by updating the average price in a given period. 
+
+In theory, if the price is above the MA the trend is up, and vice versa. The window of the moving average strongly depends on the trader's time horizon, but a common range goes from 10 to 200.  
+
+It seems to be a very well known approach and I also discovered two different strategies that I will probably implement tomorrow!
+
+Of course it is not perfect, for two main reasons:
+1. the future is unpredictable by nature (Taleb docet),
+2. it does not work well with volatile stocks (e.g. cryptocurrencies).
+
+<p align="center">
+  <img src="https://github.com/francescodisalvo05/66DaysOfData/blob/main/images/day10.jpg" height="500px"/>
+</p>
