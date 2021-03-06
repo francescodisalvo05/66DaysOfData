@@ -160,5 +160,5 @@ Of course it is not perfect, for two main reasons:
 2. it does not work well with volatile stocks (e.g. cryptocurrencies).
 
 <p align="center">
-  <img src="https://github.com/francescodisalvo05/66DaysOfData/blob/main/images/day10.jpg" height="500px"/>
+  <img src="https://github.com/francescodisalvo05/66DaysOfData/blob/main/images/day10.png" height="500px"/>
 </p>
