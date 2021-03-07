@@ -171,7 +171,7 @@ Of course it is not perfect, for two main reasons:
 2. it does not work well with volatile stocks (e.g. cryptocurrencies).
 
 <p align="center">
-  <img src="https://github.com/francescodisalvo05/66DaysOfData/blob/main/images/day10.jpg" height="300px"/>
+  <img src="https://github.com/francescodisalvo05/66DaysOfData/blob/main/images/day10.png" height="300px"/>
 </p>
 
 > * Source : https://www.investopedia.com/top-7-technical-analysis-tools-4773275
@@ -194,7 +194,7 @@ I cannot quantify which is the best one (and actually I think that no one is the
 I should consider some thresholds for the signals, because as you can see from the graphs, there are short periods where I receive too much signals. 
 
 <p align="center">
-  <img src="https://github.com/francescodisalvo05/66DaysOfData/blob/main/images/day11.jpg" height="300px"/>
+  <img src="https://github.com/francescodisalvo05/66DaysOfData/blob/main/images/day11.png" height="300px"/>
 </p>
 
 > * SMA : https://www.investopedia.com/top-7-technical-analysis-tools-4773275
