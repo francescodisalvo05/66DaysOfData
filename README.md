@@ -13,6 +13,7 @@ Then, the second library is **ta** (Technical Analysis) that implements 32 indic
 > * https://algotrading101.com/learn/yfinance-guide/ <br />
 > * https://technical-analysis-library-in-python.readthedocs.io/en/latest/ <br />
 > * https://towardsdatascience.com/technical-analysis-library-to-financial-datasets-with-pandas-python-4b2b390d3543 <br />
+> * LinkedIn #0 : https://www.linkedin.com/posts/francescodisalvo-pa_66daysofdata-yfinance-ta-activity-6770455330833891329-62hu
 
 `DAY-1` : Today I started reading the first pages of "Advances in Financial Machine Learning" by Marcos Lopez de Prado. It is divided into five parts: 
 data analysis,modeling,backtesting,useful financial features,high-performance computing recipes. The first chapter of the first part is devoted to **Financial Data Structures**. First thing first, financial data can be found in several different ways and the essential types can be summarized in four macro categories: <br />
@@ -30,12 +31,14 @@ All the information that we gain, must be processed and converted into a machine
 Tomorrow I will focus on some other advanced financial data structure and I will try to conclude the first chapter of this book!
 
 > Book : [Advances In Financial Machine Learning](https://www.amazon.it/Advances-Financial-Machine-Learning-Marcos/dp/1119482089/ref=sr_1_1?__mk_it_IT=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=ZMLKR6L4EISG&dchild=1&keywords=advances+in+financial+machine+learning&qid=1614284766&sprefix=advances+in+fin%2Caps%2C198&sr=8-1)
+> * LinkedIn #1 : https://www.linkedin.com/posts/francescodisalvo-pa_66daysofdata-finance-machinelearning-activity-6770807300945936384-pT7t
 
 `DAY-2`: Today I finished the first chapter of De Prado's book and I implemented some financial data structure thanks to the proposed exercises. I appreciated the importance of sampling, in fact the author pointed out that one of the most common errors regard the information used for training a model. The remaining data structures regards **Information-Driven bars**. Their purpose is to sample more frequently when we gain new information. Yesterday we saw Tick bars, Volume bars and Dollar bars. Today I discovered Tick imbalanced bars, Volume imbalanced bars and Dollar imbalanced bars. The main difference is that in this case we sample when we exceed a pre-defined expectation. 
 
 Finally, in order to check what I studied so far, I solved the first exercise of the chapter and I took the opportunity for learning the fundamentals of plotly, a fairly well known library that allows to create interactive charts!
 
-> Book : [Advances In Financial Machine Learning](https://www.amazon.it/Advances-Financial-Machine-Learning-Marcos/dp/1119482089/ref=sr_1_1?__mk_it_IT=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=ZMLKR6L4EISG&dchild=1&keywords=advances+in+financial+machine+learning&qid=1614284766&sprefix=advances+in+fin%2Caps%2C198&sr=8-1)
+> * Book : [Advances In Financial Machine Learning](https://www.amazon.it/Advances-Financial-Machine-Learning-Marcos/dp/1119482089/ref=sr_1_1?__mk_it_IT=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=ZMLKR6L4EISG&dchild=1&keywords=advances+in+financial+machine+learning&qid=1614284766&sprefix=advances+in+fin%2Caps%2C198&sr=8-1)
+> * LinkedIn #2 : https://www.linkedin.com/posts/francescodisalvo-pa_day2-activity-6771197741126172672-jaYg
 
 <p align="center">
   <img src="https://github.com/francescodisalvo05/66DaysOfData/blob/main/images/day2.png" height="400px"/>
@@ -47,6 +50,7 @@ The second step is to save the dataframe into some other optimized format. He pr
 
 > * Youtube video: https://www.youtube.com/watch?v=-cLPasRzJeY&t
 > * Blogpost : https://towardsdatascience.com/the-best-format-to-save-pandas-data-414dca023e0d
+> * LinkedIn #3 : https://www.linkedin.com/posts/francescodisalvo-pa_how-to-reduce-memory-usage-and-loading-time-activity-6771545540988542976-_24s
 
 `DAY-4`: Today I studied the third chapter of "Advances in Financial Machine Learning" that focuses on how to label financial data. 
 
@@ -71,6 +75,7 @@ Tomorrow I will try to implement these steps and let's see what I will obtain!
 > * Book : [Advances In Financial Machine Learning](https://www.amazon.it/Advances-Financial-Machine-Learning-Marcos/dp/1119482089/ref=sr_1_1?__mk_it_IT=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=ZMLKR6L4EISG&dchild=1&keywords=advances+in+financial+machine+learning&qid=1614284766&sprefix=advances+in+fin%2Caps%2C198&sr=8-1)
 > * Figure and [1]: https://towardsdatascience.com/the-triple-barrier-method-251268419dcd
 > * Another useful resource : https://ai.plainenglish.io/start-using-better-labels-for-financial-machine-learning-6eeac691e660
+> * LinkedIn #4 : https://www.linkedin.com/posts/francescodisalvo-pa_66daysofdata-machinelearning-datascience-activity-6771882444967694336-u7nd
 
 `DAY-5` : Today I was approaching the implementation of triple barrier method and meta labeling but I found another interesting topic to focus on: the Bollinger Bands. 
 
@@ -86,6 +91,7 @@ I took the opportunity to work with the dollar bars (bars indexed by the traded 
 > * [1] article : https://ai.plainenglish.io/start-using-better-labels-for-financial-machine-learning-6eeac691e660
 > * Bollinger Bands : https://www.investopedia.com/terms/b/bollingerbands.asp
 > * Long and Short positions : https://www.investor.gov/introduction-investing/investing-basics/how-stock-markets-work/stock-purchases-and-sales-long-and 
+> * LinkedIn #5 : https://www.linkedin.com/posts/francescodisalvo-pa_day5-activity-6772237509658189824-5OgY
 
 `DAY-6` : Today I jumped to the 6th chapter of "Advances in Financial Machine Learning" by Marcos Lopez de Prado that covers "Ensemble methods". 
 
@@ -108,6 +114,7 @@ This was just a gentle introduction of the topic, but if you want to know more, 
 > * Book : [Advances In Financial Machine Learning](https://www.amazon.it/Advances-Financial-Machine-Learning-Marcos/dp/1119482089/ref=sr_1_1?__mk_it_IT=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=ZMLKR6L4EISG&dchild=1&keywords=advances+in+financial+machine+learning&qid=1614284766&sprefix=advances+in+fin%2Caps%2C198&sr=8-1)
 > * https://quantdare.com/what-is-the-difference-between-bagging-and-boosting/
 > * https://towardsdatascience.com/ensemble-methods-bagging-boosting-and-stacking-c9214a10a205
+> * LinkedIn #6 : https://www.linkedin.com/posts/francescodisalvo-pa_66daysofdata-boosting-bagging-activity-6772612009772118020-VoF1
 
 `DAY-7`: Today I studied the 7th chapter of "Advances in Financial Machine Learning" by Marcos Lopez de Prado, devoted to "Cross Validation in Finance". 
 
@@ -129,6 +136,7 @@ I tried to implement it on my own but I got stuck for a while, so I will try aga
 > * Book : [Advances In Financial Machine Learning](https://www.amazon.it/Advances-Financial-Machine-Learning-Marcos/dp/1119482089/ref=sr_1_1?__mk_it_IT=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=ZMLKR6L4EISG&dchild=1&keywords=advances+in+financial+machine+learning&qid=1614284766&sprefix=advances+in+fin%2Caps%2C198&sr=8-1)
 > * Picture and slides : https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3257420
 > * See more : https://medium.com/@samuel.monnier/cross-validation-tools-for-time-series-ffa1a5a09bf9
+> * LinkedIn #7 : https://www.linkedin.com/posts/francescodisalvo-pa_66daysofdata-machinelearning-datascience-activity-6772945304846118913-T01L
 
 `DAY-8`: Today I played with Streamlit, a Python library that allows to easily create a web applications in a very simple way! 
 Think that this entire script took me just 52 lines. Streamlit also allows to host it on their servers for free, upon request.
@@ -142,12 +150,15 @@ I also spent some time figuring out some cool features I can implement along the
 
 > * Video : https://user-images.githubusercontent.com/66080706/110019754-1c7cbc80-7d29-11eb-9a25-37fe2fbbd8ac.mp4
 > * Code : https://github.com/francescodisalvo05/66DaysOfData/blob/main/notebooks-scripts/day8.py
+> * LinkedIn #8 : https://www.linkedin.com/posts/francescodisalvo-pa_66daysofdata-datascience-finance-activity-6773330996357021696-JxTs
 
 `DAY-9`: Today I was really busy, so I had a brief look at some possible technical indicators that could be implmented in python. 
 
 Here is the "top 7", according to Investopidia : https://www.investopedia.com/top-7-technical-analysis-tools-4773275
 
 Then, I came up with some interesting features to implement in the next days and I'll surely post here all the future updates!
+
+> * LinkedIn #9 : https://www.linkedin.com/posts/francescodisalvo-pa_top-7-technical-analysis-tools-activity-6773715324526174208-9FFN
 
 `DAY-10`: Today I implemented the Moving Average, a technical analysis tool that tries to cut out the noise from the trend, by updating the average price in a given period. 
 
@@ -160,5 +171,32 @@ Of course it is not perfect, for two main reasons:
 2. it does not work well with volatile stocks (e.g. cryptocurrencies).
 
 <p align="center">
-  <img src="https://github.com/francescodisalvo05/66DaysOfData/blob/main/images/day10.jpg" height="500px"/>
+  <img src="https://github.com/francescodisalvo05/66DaysOfData/blob/main/images/day10.jpg" height="300px"/>
 </p>
+
+> * Source : https://www.investopedia.com/top-7-technical-analysis-tools-4773275
+> * LinkedIn #10: https://www.linkedin.com/posts/francescodisalvo-pa_day-10-activity-6774030583296233472-4EE6
+
+`DAY-11`: Today I implemented the SMA (Simple Moving Average), EMA (Exponential Moving Average) and I also tested three associated strategies.
+
+Ih short: 
+- SMA : a technical analysis tool that tries to cut out the noise from the trend, by updating the average price in a given period. In theory, if the price is above the MA the trend is up, and vice versa.
+- EMA : the idea is the similar to the previous one, but the exponential moving average gives more importance (in terms of weights) to the most recent observations.
+
+The first strategy that I implemented is the "Simple Crossover", that uses just on single SMA. It tells us that when the price crosses above or below a moving average to signal a potential change in trend.
+
+The second one uses two different SMAs, one for the long period and one for the short period. When the shorter-term MA crosses above the longer-term MA, it’s a buy signal and vice versa, when the shorter-term MA crosses below the longer-term MA, it’s a sell signal.
+
+Finally, the third one is the same as the previous one, but instead of using two SMAs, it uses two EMAs.
+
+I cannot quantify which is the best one (and actually I think that no one is the best one, at all), but I should make some more tests!
+
+I should consider some thresholds for the signals, because as you can see from the graphs, there are short periods where I receive too much signals. 
+
+<p align="center">
+  <img src="https://github.com/francescodisalvo05/66DaysOfData/blob/main/images/day11.jpg" height="300px"/>
+</p>
+
+> * SMA : https://www.investopedia.com/top-7-technical-analysis-tools-4773275
+> * EMA : https://www.investopedia.com/terms/e/ema.asp
+> * LinkedIn #11 : https://www.linkedin.com/posts/francescodisalvo-pa_day11-activity-6774418286193987584-HbSl
