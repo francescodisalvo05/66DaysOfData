@@ -200,3 +200,25 @@ I should consider some thresholds for the signals, because as you can see from t
 > * SMA : https://www.investopedia.com/top-7-technical-analysis-tools-4773275
 > * EMA : https://www.investopedia.com/terms/e/ema.asp
 > * LinkedIn #11 : https://www.linkedin.com/posts/francescodisalvo-pa_day11-activity-6774418286193987584-HbSl
+
+`DAY-12`: Today I implemented my first naive backtester!
+
+I used a super basic approach but I am quite satisfied. I just considered an initial amount that would be entirely invested at each "buy signal" and rebalanced at each "sell signal", considering the adjustement given by the ratio "sell_price / buy_price". I didn't consider any additional cost as fees, final taxes and so on. 
+
+Then, yesterday I realized that in some points I had too many signals, sometimes also impossible (e.g. sell,sell,..). In order to fix that, I just used a flag "pos" that was equal to 1 if I got a position (so I would be able to sell but not to buy anymore) and 0 otherwise.  Then, I added these logical constraints to the main strategy and nothing more!
+
+I tested the Crossover strategy with two EMAs (15 and 100 days) on 4 stocks with a symbolic amount of 10k (each) from '2018-03-06'. I obtained the following results (net profts):
+* Tesla (TSLA) : + 58022.05
+* Facebook (FB) : + 1579.55
+* Google (GOOGLE) : + 8545.52
+* Gamestop (GME) : + 215050.11
+
+They seems impressive but I might have done some mistakes somewehere, so do not take these values as gold! 
+Looking at the trends and signals, they seems promising, but of course I tested it in a very few stocks. There would be much other stocks where I would lose a lot of money! 
+
+
+<p align="center">
+  <img src="https://github.com/francescodisalvo05/66DaysOfData/blob/main/images/day12.jpg" height="300px"/>
+</p>
+
+> * LinkedIn #12 : https://www.linkedin.com/posts/francescodisalvo-pa_day12-activity-6774766883167051776-Q-aj
