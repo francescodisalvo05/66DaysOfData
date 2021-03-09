@@ -222,3 +222,18 @@ Looking at the trends and signals, they seems promising, but of course I tested 
 </p>
 
 > * LinkedIn #12 : https://www.linkedin.com/posts/francescodisalvo-pa_day12-activity-6774766883167051776-Q-aj
+
+`DAY-13`: Today I improved my naive-backtester. 
+
+I didn't take that long, but the result is much more clear now! I took the opportunity to test it on Twitter with an initial amount of $10,000. 
+
+The result is quite interesting because from March 2019 to February 2019 I lost around $3,000. Then, the profit started increasing and it is still holding the position, with a current profit of $7,776.00. Of course we should see when it would have been sold! 
+
+So, I noticed with my own eyes the limits of this strategy. When the stock is highly volatile, this strategy tends to not understand the various corrections, so the results are not so good. On the other hand, it performed well in the long term (also because the stock has experienced a remarkable rise).
+
+
+<p align="center">
+  <img src="https://github.com/francescodisalvo05/66DaysOfData/blob/main/images/day13.png" height="400px"/>
+</p>
+
+> * LinkedIn #13 : https://www.linkedin.com/posts/francescodisalvo-pa_66daysofdata-algotrading-datascience-activity-6775105830531407872-Gusq
