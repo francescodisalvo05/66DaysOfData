@@ -237,3 +237,13 @@ So, I noticed with my own eyes the limits of this strategy. When the stock is hi
 </p>
 
 > * LinkedIn #13 : https://www.linkedin.com/posts/francescodisalvo-pa_66daysofdata-algotrading-datascience-activity-6775105830531407872-Gusq
+
+`DAY-14`: 
+
+Today I started looking for some new technical analysis indicators and I went a bit deeper on the RSI (Relative Strength Index). It measures the magnitude of recent price changes to evaluate overbought or oversold conditions in the price of a stock or other asset.
+
+Its range of values goes from 0 to 100. Typically, when it goes below 30, it generally indicate that the stock is oversold, whereas it goes above 70, it means that it is overbought.
+
+I'm planning to implement a couple of other indicators and then I would like to move on some "Machine Learning oriented" tasks applied to the financial sector.
+
+> * LinkedIn #14 : https://www.linkedin.com/posts/francescodisalvo-pa_relative-strength-index-rsi-activity-6775513168534872064-gEa8
