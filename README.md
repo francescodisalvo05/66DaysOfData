@@ -247,3 +247,17 @@ Its range of values goes from 0 to 100. Typically, when it goes below 30, it gen
 I'm planning to implement a couple of other indicators and then I would like to move on some "Machine Learning oriented" tasks applied to the financial sector.
 
 > * LinkedIn #14 : https://www.linkedin.com/posts/francescodisalvo-pa_relative-strength-index-rsi-activity-6775513168534872064-gEa8
+
+`DAY-15`: 
+
+Today I implemented the RSI, that I mentioned yesterday. 
+
+The last one that I'll implement will be the MACD (Moving Average Convergence/Divergence)! Then, I'll use streamlit for building a dashboard with all these technical analysis indicators that I coded so far.
+
+<p align="center">
+  <img src="https://github.com/francescodisalvo05/66DaysOfData/blob/main/images/day15.png" height="400px"/>
+</p>
+
+> * LinkedIn #15 : https://www.linkedin.com/posts/francescodisalvo-pa_day15-activity-6775866282802737152-x4F7
+> * https://it.wikipedia.org/wiki/Relative_Strength_Index
+> * https://www.investopedia.com/terms/r/rsi.asp
