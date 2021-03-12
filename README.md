@@ -261,3 +261,14 @@ The last one that I'll implement will be the MACD (Moving Average Convergence/Di
 > * LinkedIn #15 : https://www.linkedin.com/posts/francescodisalvo-pa_day15-activity-6775866282802737152-x4F7
 > * https://it.wikipedia.org/wiki/Relative_Strength_Index
 > * https://www.investopedia.com/terms/r/rsi.asp
+
+`DAY-16`: 
+
+Today I implemented the Moving Average Convergence Divergence (MACD), another techincal analysis indicator defined as the differnce among two different Exponential Moving Averages (EMAs), a long-term one (26 periods) and a short-term one (12). Finally, the signal line is defined as a 9-EMA on the MACD values. 
+
+<p align="center">
+  <img src="https://github.com/francescodisalvo05/66DaysOfData/blob/main/images/day16.png" height="400px"/>
+</p>
+
+> * LinkedIn #16 : https://www.linkedin.com/posts/francescodisalvo-pa_66daysofdata-algotrading-datascience-activity-6776254545782677504-1jI- 
+> * https://www.investopedia.com/terms/m/macd.asp
