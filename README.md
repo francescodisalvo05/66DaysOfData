@@ -272,3 +272,11 @@ Today I implemented the Moving Average Convergence Divergence (MACD), another te
 
 > * LinkedIn #16 : https://www.linkedin.com/posts/francescodisalvo-pa_66daysofdata-algotrading-datascience-activity-6776254545782677504-1jI- 
 > * https://www.investopedia.com/terms/m/macd.asp
+
+`DAY-17`: 
+
+Today I spent some time doing some sketches for my "stock dashboard". Then, I watched an amazing conference by Leda Braga, CEO of Systematica Investments.
+
+
+> * LinkedIn #17 : https://www.linkedin.com/posts/francescodisalvo-pa_leda-braga-data-science-and-its-role-in-activity-6776611878455005184-N7-4 
+> * https://www.youtube.com/watch?v=9WDO8sqiy_Y&t=18s
