@@ -262,9 +262,7 @@ The last one that I'll implement will be the MACD (Moving Average Convergence/Di
 > * https://it.wikipedia.org/wiki/Relative_Strength_Index
 > * https://www.investopedia.com/terms/r/rsi.asp
 
-`DAY-16`: 
-
-Today I implemented the Moving Average Convergence Divergence (MACD), another techincal analysis indicator defined as the differnce among two different Exponential Moving Averages (EMAs), a long-term one (26 periods) and a short-term one (12). Finally, the signal line is defined as a 9-EMA on the MACD values. 
+`DAY-16`:  Today I implemented the Moving Average Convergence Divergence (MACD), another techincal analysis indicator defined as the differnce among two different Exponential Moving Averages (EMAs), a long-term one (26 periods) and a short-term one (12). Finally, the signal line is defined as a 9-EMA on the MACD values. 
 
 <p align="center">
   <img src="https://github.com/francescodisalvo05/66DaysOfData/blob/main/images/day16.png" height="400px"/>
@@ -273,10 +271,16 @@ Today I implemented the Moving Average Convergence Divergence (MACD), another te
 > * LinkedIn #16 : https://www.linkedin.com/posts/francescodisalvo-pa_66daysofdata-algotrading-datascience-activity-6776254545782677504-1jI- 
 > * https://www.investopedia.com/terms/m/macd.asp
 
-`DAY-17`: 
-
-Today I spent some time doing some sketches for my "stock dashboard". Then, I watched an amazing conference by Leda Braga, CEO of Systematica Investments.
+`DAY-17`:  Today I spent some time doing some sketches for my "stock dashboard". Then, I watched an amazing conference by Leda Braga, CEO of Systematica Investments.
 
 
 > * LinkedIn #17 : https://www.linkedin.com/posts/francescodisalvo-pa_leda-braga-data-science-and-its-role-in-activity-6776611878455005184-N7-4 
 > * https://www.youtube.com/watch?v=9WDO8sqiy_Y&t=18s
+
+`DAY-18`: Today I started building the frontend of "Stock Manager", where I will try to show (and to sum up) everything I did in the past weeks. You can already see the skeleton!
+
+I still need to familiarize with Streamlit because I realized that there are a lot of hidden features. I would like to make it as versatile as possible, because I am planning to add two (or more) other sections, so I will need to manage a multi-page layout. 
+
+![main-·-Streamlit-–-Mozilla-Firefox-_Navigazione-anonima_-2021-03-14-21-12-01](https://user-images.githubusercontent.com/66080706/111082808-79872800-850a-11eb-8954-8e6341d52790.gif)
+
+> * LinkedIn #18 : https://www.linkedin.com/posts/francescodisalvo-pa_66daysofdata-finance-algotrading-activity-6776963630178025472-dGGL
