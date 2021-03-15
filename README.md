@@ -284,3 +284,13 @@ I still need to familiarize with Streamlit because I realized that there are a l
 ![main-·-Streamlit-–-Mozilla-Firefox-_Navigazione-anonima_-2021-03-14-21-12-01](https://user-images.githubusercontent.com/66080706/111082808-79872800-850a-11eb-8954-8e6341d52790.gif)
 
 > * LinkedIn #18 : https://www.linkedin.com/posts/francescodisalvo-pa_66daysofdata-finance-algotrading-activity-6776963630178025472-dGGL
+
+`DAY-19`: Today I continued working on my stock manager. I added some general informations about the stock, as suggested me yesterday. Then I also organized and cleaned the code, in order to generalize a bit better all the features that I have in mind. I realized that I am not so organized as I thought, so I will try to improve also in this way!
+
+Finally, I started playing with the RSI indicator and I implemented the associated trading strategy. Unfortunately, I would have lost $ 129.24 on the Apple's stock!
+
+<p align="center">
+  <img src="https://github.com/francescodisalvo05/66DaysOfData/blob/main/images/day19.jpg" height="400px"/>
+</p>
+
+> * LinkedIn #19 : https://www.linkedin.com/posts/francescodisalvo-pa_66daysofdata-finance-algotrading-activity-6777332702480744448-AXtesssss
