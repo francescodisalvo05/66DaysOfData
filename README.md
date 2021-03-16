@@ -294,3 +294,18 @@ Finally, I started playing with the RSI indicator and I implemented the associat
 </p>
 
 > * LinkedIn #19 : https://www.linkedin.com/posts/francescodisalvo-pa_66daysofdata-finance-algotrading-activity-6777332702480744448-AXtesssss
+
+`DAY-20`: Today I implemented the trading strategy based on the MACD indicator (Moving Average Convergence/Divergence). This time I was luckier and I would have earned $922. 
+
+This was my 4th implemented indicator and I think I won't test other strategies or indicators later on. I have learned some technical indicators and I had a lot of fun,  but I think that I won't ever put my money in any automatic trading strategy (at least with my current knowledge).
+
+In the following days I'll try to complete the current dashboard with some "frontend tricks" in order to conclude this first short milestone! 
+
+I'm still figuring out my next steps: in particular I would like to study a bit deeper NLP and/or Forecasting. They would be both useful for the finance sector anyway.
+
+
+<p align="center">
+  <img src="https://github.com/francescodisalvo05/66DaysOfData/blob/main/images/day20.jpg" height="400px"/>
+</p>
+
+> * LinkedIn #20 : https://www.linkedin.com/posts/francescodisalvo-pa_66daysofdata-datascience-machinelearning-activity-6777661385410142208-7aDc
