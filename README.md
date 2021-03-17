@@ -309,3 +309,11 @@ I'm still figuring out my next steps: in particular I would like to study a bit 
 </p>
 
 > * LinkedIn #20 : https://www.linkedin.com/posts/francescodisalvo-pa_66daysofdata-datascience-machinelearning-activity-6777661385410142208-7aDc
+
+`DAY-21`: Today I decided to start focusing on NLP and I spent some time looking for some good resources!
+
+In particular I checked the Stanford course on NLP with Deep Learning (thanks to Dave Emmanuel Magno) and also the fantastic repository of Thinam Tamang on his #66DaysOfData in NLP: https://lnkd.in/dQwUCSZ
+
+I decided to start with "Natural Language Processing with Python" by S. Bird, E. Klein, and E. Loper in order to learn the basis of NLP and I will decide the next one along the way!
+
+> * LinkedIn #21 : https://www.linkedin.com/posts/francescodisalvo-pa_66daysofdata-activity-6778058136348581888-1VxU
