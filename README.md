@@ -317,3 +317,9 @@ In particular I checked the Stanford course on NLP with Deep Learning (thanks to
 I decided to start with "Natural Language Processing with Python" by S. Bird, E. Klein, and E. Loper in order to learn the basis of NLP and I will decide the next one along the way!
 
 > * LinkedIn #21 : https://www.linkedin.com/posts/francescodisalvo-pa_66daysofdata-activity-6778058136348581888-1VxU
+
+`DAY-22`: Today I approached the Natural Language Processing from scratch. Even if I have already a bit of experience for some academic projects, I preferred to make a cleaned swap and to start from the bases. So, I started with tokenization and a text preprocessing.
+
+The tokenization is the process by which the initial string is splitted into smaller units (called tokens). These tokens can be words, digits or punctuation. Then, in order to avoid  useless tokens they can be easily filtering with regular expressions or by iterating and checking the given conditions.
+
+> * LinkedIn #22 : https://www.linkedin.com/posts/francescodisalvo-pa_66daysofdata-datascience-nlp-activity-6778383127241867264-ia_x
