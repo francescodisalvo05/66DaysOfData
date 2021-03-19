@@ -323,3 +323,18 @@ I decided to start with "Natural Language Processing with Python" by S. Bird, E.
 The tokenization is the process by which the initial string is splitted into smaller units (called tokens). These tokens can be words, digits or punctuation. Then, in order to avoid  useless tokens they can be easily filtering with regular expressions or by iterating and checking the given conditions.
 
 > * LinkedIn #22 : https://www.linkedin.com/posts/francescodisalvo-pa_66daysofdata-datascience-nlp-activity-6778383127241867264-ia_x
+> * Notebook : https://github.com/francescodisalvo05/66DaysOfData/blob/main/notebooks-scripts/day_22.ipynb
+
+`DAY-23`: Today I explored the difference among "Stemming" and "Lemmatization".
+
+**Stemming** is the process of producing morphological variants of a root/base word. For example [likes,liked,liking'] become all 'like'. It is extremely useful for reducing the number of distinct words and for retrieving more precise information. There are several algorithms, the most common ones are the **porter** and the **snowball**. The porter's stemmer is based on the idea that the suffixes in English are made up of a combination of simpler suffixes. Then, the snowball stemmer is considered the evolution of the porter's one, because it can be also used for non-english words!
+
+**Lemmatization** is the process of grouping together different inflected words. It is similar to stemming, but here we obtain meaningful words. It is more precise, but in contrary, the computation is slower.
+
+<p align="center">
+  <img src="https://github.com/francescodisalvo05/66DaysOfData/blob/main/images/day23-1.jpg" height="400px"/>
+</p>
+
+> * LinkedIn #23 : https://www.linkedin.com/posts/francescodisalvo-pa_66daysofdata-datascience-nlp-activity-6778762019068768256-cP3p
+> * Notebook : https://github.com/francescodisalvo05/66DaysOfData/blob/main/notebooks-scripts/day_22.ipynb
+> * Picture : https://www.kaggle.com/general/185500
