@@ -336,5 +336,14 @@ The tokenization is the process by which the initial string is splitted into sma
 </p>
 
 > * LinkedIn #23 : https://www.linkedin.com/posts/francescodisalvo-pa_66daysofdata-datascience-nlp-activity-6778762019068768256-cP3p
-> * Notebook : https://github.com/francescodisalvo05/66DaysOfData/blob/main/notebooks-scripts/day_22.ipynb
+> * Notebook : https://github.com/francescodisalvo05/66DaysOfData/blob/main/notebooks-scripts/day_23.ipynb
 > * Picture : https://www.kaggle.com/general/185500
+
+`DAY-24`: Today I faced the "tf-idf" and the "tf-df", two statistics computed for each token.
+
+The **term frequency inverse document frequency** (tf-idf) gives an higher importance to all the tokens that occur frequently in a single document but rarely on the entire collection. So, it is suitable for heterogeneous documents.
+
+Then, the **term frequency document frequency** (tf-df) gives an higher importance to the tokens that are more frequent over the entire collection, so it is suitable for homogeneous documents.
+
+> * LinkedIn #24 : https://www.linkedin.com/posts/francescodisalvo-pa_66daysofdata-datascience-nlp-activity-6779146951867805696-Uuu-
+> * Notebook : https://github.com/francescodisalvo05/66DaysOfData/blob/main/notebooks-scripts/day_24.ipynb
