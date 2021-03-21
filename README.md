@@ -347,3 +347,19 @@ Then, the **term frequency document frequency** (tf-df) gives an higher importan
 
 > * LinkedIn #24 : https://www.linkedin.com/posts/francescodisalvo-pa_66daysofdata-datascience-nlp-activity-6779146951867805696-Uuu-
 > * Notebook : https://github.com/francescodisalvo05/66DaysOfData/blob/main/notebooks-scripts/day_24.ipynb
+
+`DAY-25`: Today I went through "topic scores", a way for clustering documents by their meaning.
+
+The Latent semantic analysis (LSA) is an algorithm that analyze the relationship of the words, in order to cluster them into topics. Since the number of topics is (obviously) much smaller than the number of topics, it is commonly used for reduce the dimension of your initial matrix. A slightly different algorithm is Linear Discriminant Analysis (LDA), which breaks down a document into a single topic.
+
+LDA is one of the fastest algorithms for dimension reduction, however, it is a supervised algorithm, so it requires some initial labels.
+
+In the picture below there is the implementation of the algorithm, proposed in the book "Natural Language Processing in Action".
+
+<p align="center">
+  <img src="https://github.com/francescodisalvo05/66DaysOfData/blob/main/images/day25.jpg" height="400px"/>
+</p>
+
+> * LinkedIn #25 : https://www.linkedin.com/posts/francescodisalvo-pa_66daysofdata-datascience-machinelearning-activity-6779462174587809792-1VJR
+> * Notebook : https://github.com/francescodisalvo05/66DaysOfData/blob/main/notebooks-scripts/day_25.ipynb
+> * Book : Natural Language Processing in Action: Understanding, Analyzing, and Generating Text With Python
