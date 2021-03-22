@@ -363,3 +363,18 @@ In the picture below there is the implementation of the algorithm, proposed in t
 > * LinkedIn #25 : https://www.linkedin.com/posts/francescodisalvo-pa_66daysofdata-datascience-machinelearning-activity-6779462174587809792-1VJR
 > * Notebook : https://github.com/francescodisalvo05/66DaysOfData/blob/main/notebooks-scripts/day_25.ipynb
 > * Book : Natural Language Processing in Action: Understanding, Analyzing, and Generating Text With Python
+
+`DAY-26`: Today I went through the Latent Semantic Analysis.
+
+Latent Semantic Analysis (LSA), as I mentioned yesterday, is based on the well known Singular Value Decomposition (SVD). It is possible to truncate the tf-idf matrix in order to drastically reduce the dimension of the problem. This new representation highlights the "latent sentiment" of these topics. So, the LSA tells you which dimensions are relevant to the semantic of the documents. In fact the "low variance" topics may represents just noise. 
+
+Then, I tried to implement a simple pipeline with 'A Million News Headlines' dataset'. Firtsly, I cleaned the data by removing digits and hashtags (if any) I splitted each headline in tokens. Then, I decided to normalize the tokens with the Stemming technique because it is faster than the Lemmatization and finally, I used the TruncatedSVD for clustering these headlines in "topics" (7 in this case). Thanks to a snippet that I found on a Kaggle notebook I was able to get the top 10 elements for each cluster (topic).
+
+<p align="center">
+  <img src="https://github.com/francescodisalvo05/66DaysOfData/blob/main/images/day26.jpg" height="400px"/>
+</p>
+
+> * LinkedIn #26 : https://www.linkedin.com/posts/francescodisalvo-pa_66daysofdata-datascience-machinelearning-activity-6779867210631401472-wlGA
+> * Notebook : https://github.com/francescodisalvo05/66DaysOfData/blob/main/notebooks-scripts/day_26.ipynb
+> * Book : Natural Language Processing in Action: Understanding, Analyzing, and Generating Text With Python
+> * Kaggle notebook : https://www.kaggle.com/rcushen/topic-modelling-with-lsa-and-lda
