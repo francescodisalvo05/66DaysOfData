@@ -378,3 +378,10 @@ Then, I tried to implement a simple pipeline with 'A Million News Headlines' dat
 > * Notebook : https://github.com/francescodisalvo05/66DaysOfData/blob/main/notebooks-scripts/day_26.ipynb
 > * Book : Natural Language Processing in Action: Understanding, Analyzing, and Generating Text With Python
 > * Kaggle notebook : https://www.kaggle.com/rcushen/topic-modelling-with-lsa-and-lda
+
+`DAY-27`: Today I needed to recover some lectures for my university, so I couldn't go further with my NLP studies. 
+
+Therefore, I saw a youtube video by Cassie Kozyrkov. Her short videos are always extremely interesting! I like how she compares the "learning theory" as a teacher that tries to teach to his students.
+
+> * Linkedin #27 : https://www.linkedin.com/posts/francescodisalvo-pa_mfml-019-how-to-avoid-machine-learning-activity-6780232245660659712-PXb5
+> * Youtube : https://www.youtube.com/watch?v=ZQtuTqmr4WI
