@@ -385,3 +385,16 @@ Therefore, I saw a youtube video by Cassie Kozyrkov. Her short videos are always
 
 > * Linkedin #27 : https://www.linkedin.com/posts/francescodisalvo-pa_mfml-019-how-to-avoid-machine-learning-activity-6780232245660659712-PXb5
 > * Youtube : https://www.youtube.com/watch?v=ZQtuTqmr4WI
+
+`DAY-28`: Today I went through the Latent Dirichlet Allocation.
+
+The **Latent Dirichlet Allocation** (LDiA) is a generative probabilistic model for collections of discrete data. It assumes that each document is a linear combination of a given number of topics, each one represented by a distribution of words. Once defined the ldia vector on a dataset of "spam/not spam" messages, I trained an LDA (Linear Discriminant Analysis) classifier.
+
+<p align="center">
+  <img src="https://github.com/francescodisalvo05/66DaysOfData/blob/main/images/day28.jpg" height="400px"/>
+</p>
+
+> * Linkedin #28 : https://www.linkedin.com/posts/francescodisalvo-pa_66daysofdata-datascience-machinelearning-activity-6780584093328527361-JpIr
+> * Notebook : https://github.com/francescodisalvo05/66DaysOfData/blob/main/notebooks-scripts/day_28.ipynb
+> * Book : Natural Language Processing in Action: Understanding, Analyzing, and Generating Text With Python
+
