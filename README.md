@@ -398,3 +398,14 @@ The **Latent Dirichlet Allocation** (LDiA) is a generative probabilistic model f
 > * Notebook : https://github.com/francescodisalvo05/66DaysOfData/blob/main/notebooks-scripts/day_28.ipynb
 > * Book : Natural Language Processing in Action: Understanding, Analyzing, and Generating Text With Python
 
+`DAY-29`: Today I completed the first part of "Natural Language Processing in Action" and I spent some time looking for financial blog/websites to scrape, in order to analyze the impact of news on Stock Prices.
+
+In particular I am planning to scrape from finviz.com that for each stock presents a table with its news from several different sources. At the beginning I will extract just the titles, but I might try to implement some "scraping" patterns for some rources (e.g. Yahoo Finance, Bloomberg and so on).
+
+<p align="center">
+  <img src="https://github.com/francescodisalvo05/66DaysOfData/blob/main/images/day29.jpg" height="400px"/>
+</p>
+
+> * Linkedin #29 : https://www.linkedin.com/posts/francescodisalvo-pa_66daysofdata-finance-machinelearning-activity-6780960306752557056-jJKO
+> * Book : Natural Language Processing in Action: Understanding, Analyzing, and Generating Text With Python
+
