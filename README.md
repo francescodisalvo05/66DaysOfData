@@ -409,3 +409,17 @@ In particular I am planning to scrape from finviz.com that for each stock presen
 > * Linkedin #29 : https://www.linkedin.com/posts/francescodisalvo-pa_66daysofdata-finance-machinelearning-activity-6780960306752557056-jJKO
 > * Book : Natural Language Processing in Action: Understanding, Analyzing, and Generating Text With Python
 
+`DAY-30`: Today as I anticipated yesterday I scraped Tesla's financial news from finviz.com.
+
+In particular, for each stock there is a "table" with the headline of the latest news. So, thanks to BeautifulSoup I was able to scrape the main table with id="news-table", then I iterated over each row and I extracted the title, the resource and the link of the full description. Then, I preprocessed the text by removing digits, punctuation and by normalizing with the stemming technique.
+
+In the following days I will try to analyze the correlation among the "sentiment" over all headlines and the stock's trend. 
+
+Feedbacks and ideas are always well received!
+
+<p align="center">
+  <img src="https://github.com/francescodisalvo05/66DaysOfData/blob/main/images/day30-1jpg" height="400px"/>
+</p>
+
+> * Linkedin #30 : https://www.linkedin.com/posts/francescodisalvo-pa_66daysofdata-datascience-webscraping-activity-6781339744325386240-dgvs
+
