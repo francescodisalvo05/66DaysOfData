@@ -418,8 +418,14 @@ In the following days I will try to analyze the correlation among the "sentiment
 Feedbacks and ideas are always well received!
 
 <p align="center">
-  <img src="https://github.com/francescodisalvo05/66DaysOfData/blob/main/images/day30-1jpg" height="400px"/>
+  <img src="https://github.com/francescodisalvo05/66DaysOfData/blob/main/images/day30-1.jpg" height="400px"/>
 </p>
 
 > * Linkedin #30 : https://www.linkedin.com/posts/francescodisalvo-pa_66daysofdata-datascience-webscraping-activity-6781339744325386240-dgvs
 
+
+`DAY-31` : Today I started reading the first pages of the 6th chapter from "Natural Language Processing in action", regarding Word2Vec. It learns the meaning of the words by simply processing a large corpus of unlabeled data. 
+
+It looks really promising, tomorrow I'll try to complete this chapter and to start implementing it into my small project.
+
+> * Linkedin #31 : https://www.linkedin.com/posts/francescodisalvo-pa_66daysofdata-datascience-machinelearning-activity-6781691298165350400-acbY
