@@ -429,3 +429,21 @@ Feedbacks and ideas are always well received!
 It looks really promising, tomorrow I'll try to complete this chapter and to start implementing it into my small project.
 
 > * Linkedin #31 : https://www.linkedin.com/posts/francescodisalvo-pa_66daysofdata-datascience-machinelearning-activity-6781691298165350400-acbY
+> * Book : Natural Language Processing in Action: Understanding, Analyzing, and Generating Text With Python
+
+`DAY-32` : Today I studied the Word2Vec a bit more in detail, from "Natural Language Processing in Action".
+
+Then, I tried to apply the Word2Vec on the financial news scraped from finviz.com. Unfortunately, I realized that I didn't have enough data (because the headline proposed by finviz are just a small sample). So, I decided to start implement it on a "more complete" dataset. In particular I went through a dataset that I found on kaggle with 1.6 millions tweets.
+
+I spent some time trying to clean it and I realized once and for all that I need to improve with Regular Expressions! After that, I obtained interesting results. Now I need to figure it out how can I implement an unserpvised sentiment analysis. I think I should use KMeans with two clusters, but then I probably need to merge all the weights for each word (?).
+
+As always, feedbacks, ideas and protips are always well received!
+
+<p align="center">
+  <img src="https://github.com/francescodisalvo05/66DaysOfData/blob/main/images/day32.jpg" height="300px"/>
+</p>
+
+> * Linkedin #32 : https://www.linkedin.com/posts/francescodisalvo-pa_66daysofdata-datascience-machinelearning-activity-6782001756592209920-NHkv
+> * Book : Natural Language Processing in Action: Understanding, Analyzing, and Generating Text With Python 
+> * Dataset : https://www.kaggle.com/kazanova/sentiment140
+> * Hyperparams Word2Vec : https://www.kaggle.com/pierremegret/gensim-word2vec-tutorial
