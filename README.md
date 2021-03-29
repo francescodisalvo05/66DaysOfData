@@ -447,3 +447,18 @@ As always, feedbacks, ideas and protips are always well received!
 > * Book : Natural Language Processing in Action: Understanding, Analyzing, and Generating Text With Python 
 > * Dataset : https://www.kaggle.com/kazanova/sentiment140
 > * Hyperparams Word2Vec : https://www.kaggle.com/pierremegret/gensim-word2vec-tutorial
+
+`DAY-33` : Today I tried to implement an Unsupervised Sentiment Analysis with Word2Vec, KMeans and further computations. 
+Thanks to Sören Grannemann I came across an interesting article that followed my initial idea. Unfortunately I wasn't able to replicate it into my dataset. I struggled for around one hour but then I decided to look for new articles and resources.
+
+The most popular "unsupervised tool" for doing Sentiment Analysis seems to be Vader (Valence Aware Dictionary for sEntiment Reasoning). I was a bit skeptical at the beginning, but to be honest it surprised me. In the picture down below you can see some tests. 
+
+Have you ever used it for your projects? 
+
+<p align="center">
+  <img src="https://github.com/francescodisalvo05/66DaysOfData/blob/main/images/day33.jpg" height="300px"/>
+</p>
+
+> * Linkedin #33 : https://www.linkedin.com/posts/francescodisalvo-pa_66daysofdata-datascience-machinelearning-activity-6782391314806779904-IVPA
+> * Dataset : https://www.kaggle.com/kazanova/sentiment140
+> * Medium article : https://towardsdatascience.com/unsupervised-sentiment-analysis-a38bf1906483
