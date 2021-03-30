@@ -462,3 +462,19 @@ Have you ever used it for your projects?
 > * Linkedin #33 : https://www.linkedin.com/posts/francescodisalvo-pa_66daysofdata-datascience-machinelearning-activity-6782391314806779904-IVPA
 > * Dataset : https://www.kaggle.com/kazanova/sentiment140
 > * Medium article : https://towardsdatascience.com/unsupervised-sentiment-analysis-a38bf1906483
+
+`DAY-34` : Today I spent a lot of time with Twitter API's in order to find out a way for overcoming the limitation imposed (100 tweets) but I got millions of errors. 
+In particular I tried to iterate on a fixed time window as I saw in an article (1) but I face the same error any time: 
+
+{'start_time': ['2021-03-30T18:18Z']}, 'message': "Invalid 'start_time':'2021-03-30T18:18Z'. 'start_time' must be a minimum of 10 seconds prior to the request time."}
+
+I also tried with tweepy but it doesn't work since the new API's update and twitterscraper doesn't return me anything. 
+
+If you have experience with it, I would be glad to receive some tips!
+
+<p align="center">
+  <img src="https://github.com/francescodisalvo05/66DaysOfData/blob/main/images/day33.jpg" height="300px"/>
+</p>
+
+> * Linkedin #34 : https://www.linkedin.com/posts/francescodisalvo-pa_66daysofdata-datascience-machinelearning-activity-6782755516616581120-AsqP
+> * Article : https://towardsdatascience.com/sentiment-analysis-for-stock-price-prediction-in-python-bed40c65d178
