@@ -478,3 +478,16 @@ If you have experience with it, I would be glad to receive some tips!
 
 > * Linkedin #34 : https://www.linkedin.com/posts/francescodisalvo-pa_66daysofdata-datascience-machinelearning-activity-6782755516616581120-AsqP
 > * Article : https://towardsdatascience.com/sentiment-analysis-for-stock-price-prediction-in-python-bed40c65d178
+
+`DAY-35` : Today I finally managed Twitter APIs, so I was able to scrape one week of tweets with a given query. 
+
+So, after cleaning the text (removing "#", tags, links and so on) I used VADER for an unsupervised sentiment analysis. In order to analyze the correlation among the sentiment and the stock price I used yfinance for extracting the prices in the same time window.
+
+Then, I grouped the tweets per day and I considered the percentage of positive tweets per day and I plot them with Plotly. This model is far from "consistent" but I guess it is a nice starting point. An important point to consider is that I extracted 4372 tweets, so it doesn't reflect the "popular opinion". In the following days I would like to improve the sentiment analysis, in order to get a slightly better result. 
+
+<p align="center">
+  <img src="https://github.com/francescodisalvo05/66DaysOfData/blob/main/images/day35.png" height="300px"/>
+</p>
+
+> * Linkedin #35 : https://www.linkedin.com/posts/francescodisalvo-pa_66daysofdata-datascience-machinelearning-activity-6783117279832887296-EPGh
+> * Article : https://towardsdatascience.com/sentiment-analysis-for-stock-price-prediction-in-python-bed40c65d178
