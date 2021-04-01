@@ -491,3 +491,21 @@ Then, I grouped the tweets per day and I considered the percentage of positive t
 
 > * Linkedin #35 : https://www.linkedin.com/posts/francescodisalvo-pa_66daysofdata-datascience-machinelearning-activity-6783117279832887296-EPGh
 > * Article : https://towardsdatascience.com/sentiment-analysis-for-stock-price-prediction-in-python-bed40c65d178
+
+`DAY-36` : Today I tried to improved the Sentiment Analysis "score", even if since it is unsupervised, it cannot easily judged.
+
+Yesterday I used Vader and today I compared it with two other unservised algorithms: TextBlob and Flair.
+
+TextBlob provides the "sentiment" property, which returns the tuple (polarity,subjectiviy) where polarity is a float value between [-1.0,1]. Then, Flair is also able to predict the "sentiment" with a given confidence percentage. 
+
+Among the three models, the most consistent (in this specific sample) seems to be Vader or TextBlob, but it is not so easy to evaluate. The bottlneck of this approach are the Twitter APIs because of its limit. In fact, there is a limit of 100 tweets for each request and it is not possible to send too many requests, in fact after a while I received the Error 429 (Too Many Requests). I'd try with a sleep between each request.
+
+As always, feedbacks are always welcome!
+
+
+<p align="center">
+  <img src="https://github.com/francescodisalvo05/66DaysOfData/blob/main/images/day36.png" height="300px"/>
+</p>
+
+> * Linkedin #36 : https://www.linkedin.com/posts/francescodisalvo-pa_66daysofdata-datascience-machinelearning-activity-6783480099070070784-qqmG
+> * Article : https://towardsdatascience.com/sentiment-analysis-for-stock-price-prediction-in-python-bed40c65d178
