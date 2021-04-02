@@ -509,3 +509,26 @@ As always, feedbacks are always welcome!
 
 > * Linkedin #36 : https://www.linkedin.com/posts/francescodisalvo-pa_66daysofdata-datascience-machinelearning-activity-6783480099070070784-qqmG
 > * Article : https://towardsdatascience.com/sentiment-analysis-for-stock-price-prediction-in-python-bed40c65d178
+
+`DAY-36` : Today I have read that yesterday Elon Musk tweeted: 
+
+"SpaceX is going to put a literal Dogecoin on the literal moon". 
+
+It is well known that Elon Musk "pushed" Dogecoing for a while thanks to his twitter account. So I decided to quantify how much influence he actually has on this cryptocurrency. So I decided to scrape Elon Musk's profile by using selenium in order to collect as much tweets as I could with the keyowrds ['doge','dogecoin','dog','shiba']. Furthermore, I was able to collect 15 tweets, from "2021-02-04" to "2021-04-01" (yesterday).
+
+Finally, I took the "doge-usd" prices from "yfinance", and the result is impressive! This is the reason why I love data science: for any question you have, if you find the right data, you'll be able to answer it (at least, most of the time)!
+
+The curious thing is that he influenced both positively and negatively, in fact if you see three of the most significant falls, his tweet were:
+* Feb 11 =  Frodo was the underdoge, All thought he would fail, Himself most of all.
+* Feb 14 =  If major Dogecoin holders sell most of their coins, it will get my full support. Too much concentration is the only real issue imo.
+* Mar 14 =  I’m getting a Shiba Inu #resistanceisfutile
+
+Even if it doesn't seem so complicate, I am always enthusiastic about these insights! I have also some ideas to implement in the following days from this base.
+
+
+<p align="center">
+  <img src="https://github.com/francescodisalvo05/66DaysOfData/blob/main/images/day37.jpg" height="300px"/>
+</p>
+
+> * Linkedin #37 : https://www.linkedin.com/posts/francescodisalvo-pa_66daysofdata-datascience-machinelearning-activity-6783833851585171456-JcWa
+> * Scraping inspiration : https://github.com/israel-dryer/Twitter-Scraper
