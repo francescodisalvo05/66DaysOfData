@@ -532,3 +532,11 @@ Even if it doesn't seem so complicate, I am always enthusiastic about these insi
 
 > * Linkedin #37 : https://www.linkedin.com/posts/francescodisalvo-pa_66daysofdata-datascience-machinelearning-activity-6783833851585171456-JcWa
 > * Scraping inspiration : https://github.com/israel-dryer/Twitter-Scraper
+
+`DAY-38` : Today I decided that I will slow down a bit this weekend, so I did a wery well review of Gradient Descent thanks to the amazing StatQuest's video. I do not deny that most of the time I prefer to review some topics from this channel due to all the hypnotic intros!
+
+> * Linkedin #38 : https://www.linkedin.com/posts/francescodisalvo-pa_gradient-descent-step-by-step-activity-6784216154496868352-nQPc
+> * Gradient Descent : https://www.youtube.com/watch?v=sDv4f4s2SB8
+
+
+
