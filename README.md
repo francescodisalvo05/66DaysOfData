@@ -538,5 +538,12 @@ Even if it doesn't seem so complicate, I am always enthusiastic about these insi
 > * Linkedin #38 : https://www.linkedin.com/posts/francescodisalvo-pa_gradient-descent-step-by-step-activity-6784216154496868352-nQPc
 > * Gradient Descent : https://www.youtube.com/watch?v=sDv4f4s2SB8
 
+`DAY-39` : Today I briefly read the first chapter (introduction) of "Natural Language Processing with PyTorch".
+
+Since I wanted to practise on PyTorch due to a future project for my "Machine Learning and Deep Learning" course at univerisity, I decided to switch book! The book "Natural Language Processing in action" is very nice book but let's see how it will go with the new one!
+
+> * Linkedin #39 : https://www.linkedin.com/posts/francescodisalvo-pa_66daysofdata-activity-6784467599200673793-uLms
+> * Book : [Natural Language Processing with PyTorch](https://www.amazon.it/Natural-Language-Processing-Pytorch-Applications/dp/1491978236/ref=sr_1_5?dchild=1&keywords=NLP+with+PyTorch&qid=1617542825&sr=8-5)
+
 
 
