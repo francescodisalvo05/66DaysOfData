@@ -545,5 +545,12 @@ Since I wanted to practise on PyTorch due to a future project for my "Machine Le
 > * Linkedin #39 : https://www.linkedin.com/posts/francescodisalvo-pa_66daysofdata-activity-6784467599200673793-uLms
 > * Book : [Natural Language Processing with PyTorch](https://www.amazon.it/Natural-Language-Processing-Pytorch-Applications/dp/1491978236/ref=sr_1_5?dchild=1&keywords=NLP+with+PyTorch&qid=1617542825&sr=8-5)
 
+`DAY-40` : Today I went through the third chapter of "Natural Language Processing with PyTorch".
 
+First impressions of this book are good. This chapter was focused on the basics of Neural Networks. So, it covered concepts as Perceptron, Activation and Loss functions and finally it explained the neural network "workload", followed by a supervised sentiment analysis in PyTorch (that you can find below).
+
+
+> * Linkedin #40 : https://www.linkedin.com/posts/francescodisalvo-pa_66daysofdata-machinelearning-datascience-activity-6784781781607436288-rw1a
+> * Book : [Natural Language Processing with PyTorch](https://www.amazon.it/Natural-Language-Processing-Pytorch-Applications/dp/1491978236/ref=sr_1_5?dchild=1&keywords=NLP+with+PyTorch&qid=1617542825&sr=8-5)
+> * Sentiment Analysis : https://github.com/joosthub/PyTorchNLPBook/blob/master/chapters/chapter_3/3_5_Classifying_Yelp_Review_Sentiment.ipynb
 
