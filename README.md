@@ -549,8 +549,19 @@ Since I wanted to practise on PyTorch due to a future project for my "Machine Le
 
 First impressions of this book are good. This chapter was focused on the basics of Neural Networks. So, it covered concepts as Perceptron, Activation and Loss functions and finally it explained the neural network "workload", followed by a supervised sentiment analysis in PyTorch (that you can find below).
 
-
 > * Linkedin #40 : https://www.linkedin.com/posts/francescodisalvo-pa_66daysofdata-machinelearning-datascience-activity-6784781781607436288-rw1a
 > * Book : [Natural Language Processing with PyTorch](https://www.amazon.it/Natural-Language-Processing-Pytorch-Applications/dp/1491978236/ref=sr_1_5?dchild=1&keywords=NLP+with+PyTorch&qid=1617542825&sr=8-5)
 > * Sentiment Analysis : https://github.com/joosthub/PyTorchNLPBook/blob/master/chapters/chapter_3/3_5_Classifying_Yelp_Review_Sentiment.ipynb
 
+`DAY-41` : Today I went ahead with the book "Natural Language Processing with PyTorch".
+
+I implemented the Multilayer Perceptron (MLP) in PyTorch and I went through the proposed "Surname Classification" example. So, I started implementing, along the book's guidance, the classes Vocabulary, Vectorizer and SurnameDataset. 
+
+Vocabulary coordinates two Python dictionaries, that form a bijection between tokens and integers. Vectorizer, instead, converts individual tokens into integers. Finally SurnameDataset is responsible of the initial data management. 
+
+<p align="center">
+  <img src="https://github.com/francescodisalvo05/66DaysOfData/blob/main/images/day41.jpg" height="350px"/>
+</p>
+
+> * Linkedin #41 : https://www.linkedin.com/posts/francescodisalvo-pa_66daysofdata-nlp-machinelearning-activity-6785134262254362624-Qo3G
+> * Book : [Natural Language Processing with PyTorch](https://www.amazon.it/Natural-Language-Processing-Pytorch-Applications/dp/1491978236/ref=sr_1_5?dchild=1&keywords=NLP+with+PyTorch&qid=1617542825&sr=8-5)
