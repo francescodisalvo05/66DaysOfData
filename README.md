@@ -565,3 +565,8 @@ Vocabulary coordinates two Python dictionaries, that form a bijection between to
 
 > * Linkedin #41 : https://www.linkedin.com/posts/francescodisalvo-pa_66daysofdata-nlp-machinelearning-activity-6785134262254362624-Qo3G
 > * Book : [Natural Language Processing with PyTorch](https://www.amazon.it/Natural-Language-Processing-Pytorch-Applications/dp/1491978236/ref=sr_1_5?dchild=1&keywords=NLP+with+PyTorch&qid=1617542825&sr=8-5)
+
+`DAY-42` : Today I completed the Surname Classification example from "Natural Language Processing with PyTorch". I also started looking at the introduction of Word Embeddings and I will continue it tomorrow!
+
+> * Linkedin #42 : https://www.linkedin.com/posts/francescodisalvo-pa_66daysofdata-datascience-machinelearning-activity-6785638065399447552-U2fd
+> * Book : [Natural Language Processing with PyTorch](https://www.amazon.it/Natural-Language-Processing-Pytorch-Applications/dp/1491978236/ref=sr_1_5?dchild=1&keywords=NLP+with+PyTorch&qid=1617542825&sr=8-5)
