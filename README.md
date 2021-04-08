@@ -570,3 +570,18 @@ Vocabulary coordinates two Python dictionaries, that form a bijection between to
 
 > * Linkedin #42 : https://www.linkedin.com/posts/francescodisalvo-pa_66daysofdata-datascience-machinelearning-activity-6785638065399447552-U2fd
 > * Book : [Natural Language Processing with PyTorch](https://www.amazon.it/Natural-Language-Processing-Pytorch-Applications/dp/1491978236/ref=sr_1_5?dchild=1&keywords=NLP+with+PyTorch&qid=1617542825&sr=8-5)
+
+`DAY-43` : Today I went deeper on Word Embedding with the book "Natural Language Processing with PyTorch".
+
+Word Embeddings methods map large representative vectors into lower dimensional space, maintaining any kind of semantic relationship. The main advantage are: faster computation avoid redundant representation avoid curse of dimensionality representations learned from task specific are optimal
+
+All word embedding methods train with unlabeled data but use some auxiliary supervised tasks in order to extract some correlations among the words, such as “predict the next word”, “predict the missing word in a sequence” and so on.
+
+In the following example I predicted the analogy of a sequence of terms in the order of "word1 : word2 = word3 : X". Here it is possible to see which are the consequences of biased data used to train the algorithms!
+
+<p align="center">
+  <img src="https://github.com/francescodisalvo05/66DaysOfData/blob/main/images/day43.jpg" height="450px"/>
+</p>
+
+> * Linkedin #43 : https://www.linkedin.com/posts/francescodisalvo-pa_66daysofdata-activity-6785984223477014528-CEdW
+> * Book : [Natural Language Processing with PyTorch](https://www.amazon.it/Natural-Language-Processing-Pytorch-Applications/dp/1491978236/ref=sr_1_5?dchild=1&keywords=NLP+with+PyTorch&qid=1617542825&sr=8-5)
