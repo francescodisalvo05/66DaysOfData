@@ -585,3 +585,14 @@ In the following example I predicted the analogy of a sequence of terms in the o
 
 > * Linkedin #43 : https://www.linkedin.com/posts/francescodisalvo-pa_66daysofdata-activity-6785984223477014528-CEdW
 > * Book : [Natural Language Processing with PyTorch](https://www.amazon.it/Natural-Language-Processing-Pytorch-Applications/dp/1491978236/ref=sr_1_5?dchild=1&keywords=NLP+with+PyTorch&qid=1617542825&sr=8-5)
+
+`DAY-44` : Today I continued what I started yesterday, implementing a script for plotting the word vectors in a 3-dimensional space!
+
+This representation was possible thanks to the t-SNE (t-distributed stochastic neighbor embedding), a manifold learning technique that constructs the probability distribution of the data in the initial dimensional space and then, it tries to maintain such a probability distribution over the smallest dimensional space. 
+
+<p align="center">
+  <img src="https://github.com/francescodisalvo05/66DaysOfData/blob/main/images/day44.png" height="350px"/>
+</p>
+
+> * Linkedin #44: https://www.linkedin.com/posts/francescodisalvo-pa_66daysofdata-datascience-machinelearning-activity-6786380850222129153-qCQJ
+  

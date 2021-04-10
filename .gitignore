@@ -2,3 +2,4 @@
 /notebooks-scripts/.ipynb_checkpoints
 dataset/twitter_SA.csv
 dataset/barrer-token.txt
+dataset/glove.6B.100d.txt
