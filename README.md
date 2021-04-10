@@ -595,4 +595,25 @@ This representation was possible thanks to the t-SNE (t-distributed stochastic n
 </p>
 
 > * Linkedin #44: https://www.linkedin.com/posts/francescodisalvo-pa_66daysofdata-datascience-machinelearning-activity-6786380850222129153-qCQJ
-  
+
+`DAY-45` : Today I went through the LSTM paper and a couple of additional resources.
+
+RNNs, due to its construction, suffer to short term memory. In order to mitigate this problem, the LSTM (Long Short Term Memory) architecture proposes to use an additional component, in order to learn long term dependencies. The computation will be heavier due to an increasing in complexity, so this architecture is suggested when you expect to learn long sequences to learn. 
+
+This architecture has three gates : the input gate, the remember (or don't forget) gate and the output gate. Each layer will have its non linear function (sigmoid)
+that will determine the outcome. 
+
+So, the final output will be determined by the last sigmoid function, so we might have two possibilities: 0 or 1. 
+On the other side, it is possible to controll the memory status in three possible ways:
+* reset : input = memory = 0,
+* keep : input = 0, memory = 1,
+* write : input = 1, memory = 0
+
+<p align="center">
+  <img src="https://github.com/francescodisalvo05/66DaysOfData/blob/main/images/day45.jpg" height="350px"/>
+</p>
+
+> * Linkedin #45 : https://www.linkedin.com/posts/francescodisalvo-pa_66daysofdata-nlp-deeplearning-activity-6786656052239724545-NOg4
+> * Paper : http://www.bioinf.jku.at/publications/older/2604.pdf
+> * Picture + Content : https://www.youtube.com/watch?v=5KSGNomPJTE&t=3477s
+> * Blogpost : https://colah.github.io/posts/2015-08-Understanding-LSTMs/
