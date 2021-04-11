@@ -617,3 +617,20 @@ On the other side, it is possible to controll the memory status in three possibl
 > * Paper : http://www.bioinf.jku.at/publications/older/2604.pdf
 > * Picture + Content : https://www.youtube.com/watch?v=5KSGNomPJTE&t=3477s
 > * Blogpost : https://colah.github.io/posts/2015-08-Understanding-LSTMs/
+
+`DAY-46` : Today I went through the "Sequence to Sequence Learning" paper. 
+
+This paper proposes an end to end approach to sequence learning that makes minimal assumptions to the sequence structure. It uses a multilayered LSTM to map the input sequence to a vector of a fixed dimensionality, and then another deep LSTM decode the target sequence from the vector.
+
+DNNs can perform very well when inputs and targets can be sensibly encoded with vectors of fixed dimensionality but can perform dramatically worse with sequence of tokens. So, the idea is to use LSTM to read the input sequence, one timestamp at a time, to obtain large fixed dimensional vector representation, and then, use another LSTM to extract the output sequence from this former vector.
+
+The traditional approach supposes to have input and output sequence vector with an equal length, and it might be a sort of "bottleneck". In this case the idea to use a double LSTM in order to encode the input sequence to a fixed vector, and then, to map this target vector into the actual prediction. The LSTM architecture has been proposed due to its "larger" tolerance to long term dependencies.
+
+Another interesting trick regards the encoding, in fact the authors proposed to reverse the tokens. So, if "a,b,c" gives "x,y,z", now "c,b,a" gives "x,y,a". This trick allows to have a stronger communication between the "a" and "x".  
+
+<p align="center">
+  <img src="https://github.com/francescodisalvo05/66DaysOfData/blob/main/images/day46.jpg" height="350px"/>
+</p>
+
+> * Linkedin #46 : https://www.linkedin.com/posts/francescodisalvo-pa_66daysofdata-deeplearning-nlp-activity-6787046839205011456-oWSu
+> * Paper : https://arxiv.org/pdf/1409.3215.pdf
