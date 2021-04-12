@@ -634,3 +634,22 @@ Another interesting trick regards the encoding, in fact the authors proposed to 
 
 > * Linkedin #46 : https://www.linkedin.com/posts/francescodisalvo-pa_66daysofdata-deeplearning-nlp-activity-6787046839205011456-oWSu
 > * Paper : https://arxiv.org/pdf/1409.3215.pdf
+
+`DAY-47` : Today I went through the "Quasi Recurrent Neural Network" paper. 
+
+RNNs are really valuable for modeling sequences, but the main problem is that they're slow, they work with one token at each timestamp. On the other hand, CNN are really valuable for extracting spatial features extremely fast (thanks to the parallelization).
+
+So, the authors propose to alternate convolutional layers and recurrent pooling functions applied in parallel across channels. 
+
+Each layer presents two subcomponents, comparable to the convolution and pooling layers in CNNs. The convolutional one allows parallel computations across mini batches and spatial dimension, whereas the pooling component performs convolutions across minibatch and feature dimensions.
+
+The pooling component captures the most relevant features obtained so far. In this case, the authors  were inspired by the nature of the LSTM and the pooling layers simply mix the hidden states across timestamps, indipendently on each channel of the state vector.
+
+This architecture is opened to severl improvements, such as regularizations, densely connected layers, encoder-decoder structures and so on. 
+
+<p align="center">
+  <img src="https://github.com/francescodisalvo05/66DaysOfData/blob/main/images/day47.jpg" height="350px"/>
+</p>
+
+> * Linkedin #47 : https://www.linkedin.com/posts/francescodisalvo-pa_66daysofdata-nlp-deeplearning-activity-6787421470663446528-HJbn
+> * Paper : https://arxiv.org/pdf/1611.01576v1
