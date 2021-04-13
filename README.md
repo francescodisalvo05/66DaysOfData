@@ -653,3 +653,14 @@ This architecture is opened to severl improvements, such as regularizations, den
 
 > * Linkedin #47 : https://www.linkedin.com/posts/francescodisalvo-pa_66daysofdata-nlp-deeplearning-activity-6787421470663446528-HJbn
 > * Paper : https://arxiv.org/pdf/1611.01576v1
+
+`DAY-48` : Today I came across an interesting article related to #Leetcode. 
+
+It is often argued the relevance of leetcode for technical interviews and I admit that sometimes I asked myself the usual question : why should I spend time doing DSA exercises instead of improving my Machine Learning skills or going ahead personal projects?
+
+I recognize the fundamental importance of Data Structure and Algorithms, but at the moment I can't say that I am pro or against leetcoding for technical roles.
+
+I'd be very happy to know some other opinions from different point of views! What do you think about this kind of training for technical roles? 
+
+> * Linkedin #48 : https://www.linkedin.com/posts/francescodisalvo-pa_five-things-i-have-learned-after-solving-activity-6787822687193468928-WkLa
+> * Article : https://towardsdatascience.com/five-things-i-have-learned-after-solving-500-leetcode-questions-b794c152f7a1
