@@ -648,7 +648,7 @@ The pooling component captures the most relevant features obtained so far. In th
 This architecture is opened to severl improvements, such as regularizations, densely connected layers, encoder-decoder structures and so on. 
 
 <p align="center">
-  <img src="https://github.com/francescodisalvo05/66DaysOfData/blob/main/images/day47.jpg" height="350px"/>
+  <img src="https://github.com/francescodisalvo05/66DaysOfData/blob/main/images/day47.jpg"/>
 </p>
 
 > * Linkedin #47 : https://www.linkedin.com/posts/francescodisalvo-pa_66daysofdata-nlp-deeplearning-activity-6787421470663446528-HJbn
@@ -664,3 +664,27 @@ I'd be very happy to know some other opinions from different point of views! Wha
 
 > * Linkedin #48 : https://www.linkedin.com/posts/francescodisalvo-pa_five-things-i-have-learned-after-solving-activity-6787822687193468928-WkLa
 > * Article : https://towardsdatascience.com/five-things-i-have-learned-after-solving-500-leetcode-questions-b794c152f7a1
+
+`DAY-49` : Today I studied the flavours of "Federated Learning" thanks to various papers and articles.
+
+Federating Learning was proposed for the first time by Google in 2017 and it was (and it still is) an innovating approach for training machine learning algorithms on clients' devices (smartphone et simila). 
+
+The main idea is that the smartphone downloads the current model and it improves by learning the data from the smartphone itself, and just a small amount of data will be sent to the server for improving the general model. So in this way all the training data will be stored just on the client. 
+
+The challenges of this interesting technique are related to:
+* computational resources of the devices
+* bandwith and latency 
+* non iid data distributions
+* privacy
+* fault tolerance
+
+The training process is determined by the federated averaging algorithm, where the main server chooses a subset of data clients for a training step. So, these clients receive the model will send some information in order to improve the model. Finally the main server will optimize the model by averaging all these parameters. In order to preserve the privacy, there will be injected some noise before entering in the main system, so it would be hard to deanonimize them by aggregating them with other data. 
+
+<p align="center">
+  <img src="https://github.com/francescodisalvo05/66DaysOfData/blob/main/images/day49.jpg"/>
+</p>
+
+> * Linkedin #49 : https://www.linkedin.com/posts/francescodisalvo-pa_66daysofdata-activity-6788179132493643776-Uzpg
+> * Article : https://ai.googleblog.com/2017/04/federated-learning-collaborative.html
+> * Paper : https://ieeexplore.ieee.org/document/9084352
+> * Paper : http://proceedings.mlr.press/v54/mcmahan17a/mcmahan17a.pdf
