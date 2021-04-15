@@ -688,3 +688,19 @@ The training process is determined by the federated averaging algorithm, where t
 > * Article : https://ai.googleblog.com/2017/04/federated-learning-collaborative.html
 > * Paper : https://ieeexplore.ieee.org/document/9084352
 > * Paper : http://proceedings.mlr.press/v54/mcmahan17a/mcmahan17a.pdf
+
+`DAY-50` : Today, for an academic assignement (in Computer Vision), I studied the paper "Unsupervised Pixel–Level Domain Adaptation" with Generative Adversarial Networks.
+
+The goal of domain adaptation is to train data on a source dataset and apply it on a target dataset generated from a different distribution. The term "unsupervised" is given by the fact that we have no labels in the target domain. 
+
+So, since creating dataset such as ImageNet and COCO is quite expansive, so a feasible alternative is the use of synthetic data for modeling by using unsupervised domain adaptation. So we aim to transfer knowledge learned from a source domain, for which we have labeled data, to a target domain for which we have no labels. 
+
+This was just the flavour of the paper, tomorrow I will go deeper into the model!
+
+
+<p align="center">
+  <img src="https://github.com/francescodisalvo05/66DaysOfData/blob/main/images/day49.jpg"/>
+</p>
+
+> * Linkedin #50 : https://www.linkedin.com/posts/francescodisalvo-pa_66daysofdata-deeplearning-gan-activity-6788574631071621120-Bem-
+> * Paper : https://arxiv.org/pdf/1612.05424.pdf 
