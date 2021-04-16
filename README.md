@@ -699,8 +699,31 @@ This was just the flavour of the paper, tomorrow I will go deeper into the model
 
 
 <p align="center">
-  <img src="https://github.com/francescodisalvo05/66DaysOfData/blob/main/images/day49.jpg"/>
+  <img src="https://github.com/francescodisalvo05/66DaysOfData/blob/main/images/day50.jpg"/>
 </p>
 
 > * Linkedin #50 : https://www.linkedin.com/posts/francescodisalvo-pa_66daysofdata-deeplearning-gan-activity-6788574631071621120-Bem-
+> * Paper : https://arxiv.org/pdf/1612.05424.pdf 
+
+`DAY-51` : Today I went deeper on the paper "Unsupervised Pixel–Level Domain Adaptation" with Generative Adversarial Networks.
+
+Recall that the goal of unsupervised domain adaptation is to train data on a source dataset and apply it on a target dataset generated from a different distribution where we have no labels. 
+
+As you can see from the image, there are three main components on the model: the gnerator (G), the Discriminator (D) and the task specific classifier (T). 
+In short, the generator G generates an image from a synthetic image and a noise vector. Then, the discriminator D discriminates among real and fake images whereas the task-specific classifier T, instead, assign a labels to the fake image. 
+
+This model provides several benefits such as:
+- Decoupling from the Task-Specific Architecture
+- Generalization Across Label Spaces
+- Training Stability
+- Data Augmentation
+- Interpretability
+
+But also, it outperforms previous state of the art unsupervised domain adaptation techniques on several different image datasets!
+
+<p align="center">
+  <img src="https://github.com/francescodisalvo05/66DaysOfData/blob/main/images/day51.jpg"/>
+</p>
+
+> * Linkedin #51 : https://www.linkedin.com/posts/francescodisalvo-pa_66daysofdata-deeplearning-cv-activity-6788937427907055616-ypzu
 > * Paper : https://arxiv.org/pdf/1612.05424.pdf 
