@@ -727,3 +727,9 @@ But also, it outperforms previous state of the art unsupervised domain adaptatio
 
 > * Linkedin #51 : https://www.linkedin.com/posts/francescodisalvo-pa_66daysofdata-deeplearning-cv-activity-6788937427907055616-ypzu
 > * Paper : https://arxiv.org/pdf/1612.05424.pdf 
+
+`DAY-52` : Today I spent most of my free time with Selenium, in order to accomplish a task for my current Omdena's project. 
+
+In particular I was able to dynamically scrape from a table divided in pages. So at each iterations I clicked on the "next" page to scrape. It was a bit frustrating at the beginning, but the result is awesome! 
+
+> * Linkedin #52 : https://www.linkedin.com/posts/francescodisalvo-pa_66daysofdata-datascience-webscraping-activity-6789298168015163392-nhr0
