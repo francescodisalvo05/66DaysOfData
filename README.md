@@ -733,3 +733,10 @@ But also, it outperforms previous state of the art unsupervised domain adaptatio
 In particular I was able to dynamically scrape from a table divided in pages. So at each iterations I clicked on the "next" page to scrape. It was a bit frustrating at the beginning, but the result is awesome! 
 
 > * Linkedin #52 : https://www.linkedin.com/posts/francescodisalvo-pa_66daysofdata-datascience-webscraping-activity-6789298168015163392-nhr0
+
+`DAY-52` : Today I went through t-SNE (t-distributed stochastic neighbor embedding), a manifold learning technique that constructs the probability distribution of the data in the initial dimensional space and then, it tries to maintain such a probability distribution on a smaller dimensional space.
+
+The source is pretty obvious: StatQuest! 
+
+> * Linkedin #52 : https://www.linkedin.com/posts/francescodisalvo-pa_statquest-t-sne-clearly-explained-activity-6789659579073470464-Dx2K
+> * Paper : https://www.youtube.com/watch?v=NEaUSP4YerM
