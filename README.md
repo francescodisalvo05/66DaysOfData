@@ -740,3 +740,13 @@ The source is pretty obvious: StatQuest!
 
 > * Linkedin #52 : https://www.linkedin.com/posts/francescodisalvo-pa_statquest-t-sne-clearly-explained-activity-6789659579073470464-Dx2K
 > * Paper : https://www.youtube.com/watch?v=NEaUSP4YerM
+
+`DAY-53` : Today I went through the PyTorch's implementation of the Pixel-level Domain Adaptation algorithm.
+
+You can find the code here : https://github.com/eriklindernoren/PyTorch-GAN
+
+<p align="center">
+  <img src="https://github.com/francescodisalvo05/66DaysOfData/blob/main/images/day53.jpg"/>
+</p>
+
+> * Linkedin #53 : https://www.linkedin.com/posts/francescodisalvo-pa_66daysofdata-gan-deeplearning-activity-6790012698496114688-3JoM
