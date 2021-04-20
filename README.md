@@ -750,3 +750,24 @@ You can find the code here : https://github.com/eriklindernoren/PyTorch-GAN
 </p>
 
 > * Linkedin #53 : https://www.linkedin.com/posts/francescodisalvo-pa_66daysofdata-gan-deeplearning-activity-6790012698496114688-3JoM
+
+`DAY-54` : Today I went through the iCaRL's paper, from Sylvestre-Alvise Rebuff et al. 
+
+iCaRL states for Incremental Classifier and Representation Learning, and it is devoted to a "different" training approach. As you can imagine, this training will be incremental. It means that we periodically fed the model with new class labels to train. 
+
+It presents several advantages: 
+- It does not require a sufficient training set before learning;
+- It can continuously learn to improve when the system is running;
+- It can adapt to changes of the target concept
+- It doesn't need a priori informations about the number or distribution of the data
+
+The main issue (that it is argued in the literature) of Incremental Learning is the cathastrophic forgetting, and this paper proposes a new approach for overcoming this issue, based on three main components:
+- Distillation loss term: stabilizes output and limits overhead
+- Set of exemplars: selection procedure and discard on the fly
+- Nearest mean of exemplars classifier : automatic adjustement to representation change. For each new sample, we'll assign it to the nearest approximate class mean in the feature space.
+
+<p align="center">
+  <img src="https://github.com/francescodisalvo05/66DaysOfData/blob/main/images/day54.png"/>
+</p>
+
+> * Linkedin #54 : https://www.linkedin.com/posts/francescodisalvo-pa_66daysofdata-deeplearning-incrementallearning-activity-6790356918868185089-jBBz
