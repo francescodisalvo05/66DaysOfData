@@ -771,3 +771,7 @@ The main issue (that it is argued in the literature) of Incremental Learning is 
 </p>
 
 > * Linkedin #54 : https://www.linkedin.com/posts/francescodisalvo-pa_66daysofdata-deeplearning-incrementallearning-activity-6790356918868185089-jBBz
+
+`DAY-55` : Today I went through a couple of papers related to Incremental Learning and Semantic Segmentation for an incoming academic projects in Computer Vision.
+
+> * Linkedin #55 : https://www.linkedin.com/posts/francescodisalvo-pa_66daysofdata-computervision-cv-activity-6790726280342990848-qE5g
