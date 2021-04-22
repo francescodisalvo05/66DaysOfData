@@ -775,3 +775,10 @@ The main issue (that it is argued in the literature) of Incremental Learning is 
 `DAY-55` : Today I went through a couple of papers related to Incremental Learning and Semantic Segmentation for an incoming academic projects in Computer Vision.
 
 > * Linkedin #55 : https://www.linkedin.com/posts/francescodisalvo-pa_66daysofdata-computervision-cv-activity-6790726280342990848-qE5g
+
+`DAY-56` : Today I went through a lesson held by Prof. Laura Leal-Taixé, at Technical University Munich.
+
+It introduces the world of Semantic Segmentation and gives an excursus on the literature published so far. I highly recommend it if you want to start digging on this topic. 
+
+> * Linkedin #55 : https://www.linkedin.com/posts/francescodisalvo-pa_cv3dst-semantic-segmentation-activity-6791099912944656384-yb-K
+> * YouTube : https://www.youtube.com/watch?v=XMSjOatyH0k
