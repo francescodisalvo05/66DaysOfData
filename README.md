@@ -780,5 +780,12 @@ The main issue (that it is argued in the literature) of Incremental Learning is 
 
 It introduces the world of Semantic Segmentation and gives an excursus on the literature published so far. I highly recommend it if you want to start digging on this topic. 
 
-> * Linkedin #55 : https://www.linkedin.com/posts/francescodisalvo-pa_cv3dst-semantic-segmentation-activity-6791099912944656384-yb-K
+> * Linkedin #56 : https://www.linkedin.com/posts/francescodisalvo-pa_cv3dst-semantic-segmentation-activity-6791099912944656384-yb-K
 > * YouTube : https://www.youtube.com/watch?v=XMSjOatyH0k
+
+`DAY-57` : Today I went through Boris Giba's article about the fairly well known topic of "Bias VS Variance".
+
+Sometimes I like to recall some topics that I already know, in order to look them from other perspectives and I could say that it was worth it!
+
+> * Linkedin #57 : https://www.linkedin.com/posts/francescodisalvo-pa_bias-variance-and-overfitting-explained-activity-6791456775976587264-NQYR
+> * YouTube : https://machinelearningcompass.com/model_optimization/bias_and_variance/
