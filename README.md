@@ -789,3 +789,15 @@ Sometimes I like to recall some topics that I already know, in order to look the
 
 > * Linkedin #57 : https://www.linkedin.com/posts/francescodisalvo-pa_bias-variance-and-overfitting-explained-activity-6791456775976587264-NQYR
 > * YouTube : https://machinelearningcompass.com/model_optimization/bias_and_variance/
+
+`DAY-58` : Today I went through the paper and the Pytorch implementation of the paper "Neural Style Transfer Tutorial".
+
+The author proposed an approach for transfering the context of an image to another one, while holding the context fixed. In order to obtain the the style, they used a feature space built on top of the filter responsed in each layer of the network. It consists of the correlations among different filter responses over the spatial extent. 
+
+<p align="center">
+  <img src="https://github.com/francescodisalvo05/66DaysOfData/blob/main/images/day58.jpg"/>
+</p>
+
+> * Linkedin #58 :https://www.linkedin.com/posts/francescodisalvo-pa_66daysofdata-deeplearning-cv-activity-6791825318635167744-LuW7
+> * Paper : https://arxiv.org/abs/1508.06576
+> * Code : https://github.com/yunjey/pytorch-tutorial/tree/master/tutorials/03-advanced/neural_style_transfer
