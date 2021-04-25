@@ -801,3 +801,11 @@ The author proposed an approach for transfering the context of an image to anoth
 > * Linkedin #58 :https://www.linkedin.com/posts/francescodisalvo-pa_66daysofdata-deeplearning-cv-activity-6791825318635167744-LuW7
 > * Paper : https://arxiv.org/abs/1508.06576
 > * Code : https://github.com/yunjey/pytorch-tutorial/tree/master/tutorials/03-advanced/neural_style_transfer
+
+`DAY-59` : Today I wanted to study "unit testing" a bit more in detail. 
+
+I have never used them before, mainly because I didn't work at big projects, so I've never felt the need. 
+Thanks to this challenge, during this period I have studied a lot of things that I have always postponed! 
+
+> * Linkedin #59 : https://www.linkedin.com/posts/francescodisalvo-pa_python-tutorial-unit-testing-your-code-with-activity-6792174773486026752-bTGF
+> * YouTube : https://www.youtube.com/watch?v=6tNS--WetLI
