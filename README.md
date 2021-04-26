@@ -809,3 +809,7 @@ Thanks to this challenge, during this period I have studied a lot of things that
 
 > * Linkedin #59 : https://www.linkedin.com/posts/francescodisalvo-pa_python-tutorial-unit-testing-your-code-with-activity-6792174773486026752-bTGF
 > * YouTube : https://www.youtube.com/watch?v=6tNS--WetLI
+
+`DAY-60` : Today I spent most of my time cleaning data for my current Omdena's project and I also continued my past script for scraping tweets from twitter API's. 
+
+> * Linkedin #59 : https://www.linkedin.com/posts/francescodisalvo-pa_66daysofdata-activity-6792550411145359360-fjvu
