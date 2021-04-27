@@ -812,4 +812,14 @@ Thanks to this challenge, during this period I have studied a lot of things that
 
 `DAY-60` : Today I spent most of my time cleaning data for my current Omdena's project and I also continued my past script for scraping tweets from twitter API's. 
 
-> * Linkedin #59 : https://www.linkedin.com/posts/francescodisalvo-pa_66daysofdata-activity-6792550411145359360-fjvu
+> * Linkedin #60 : https://www.linkedin.com/posts/francescodisalvo-pa_66daysofdata-activity-6792550411145359360-fjvu
+
+`DAY-61` : Today I continued working a bit with BeautifulSoup and I scraped news from https://news.yahoo.com/. 
+
+In the next days I will start working with NLP on these scraped data!
+
+<p align="center">
+  <img src="https://github.com/francescodisalvo05/66DaysOfData/blob/main/images/day61.jpg"/>
+</p>
+
+> * Linkedin #61 :https://www.linkedin.com/posts/francescodisalvo-pa_66daysofdata-scraping-beautifulsoup-activity-6792915608754257921-__bk
