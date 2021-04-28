@@ -823,3 +823,7 @@ In the next days I will start working with NLP on these scraped data!
 </p>
 
 > * Linkedin #61 :https://www.linkedin.com/posts/francescodisalvo-pa_66daysofdata-scraping-beautifulsoup-activity-6792915608754257921-__bk
+
+`DAY-62` : Today I went through the implementation of LSTM in PyTorch for a sentiment analysis on the fairly well known IMDB dataset. The results are really promising! 
+
+> * Linkedin #62 : https://www.linkedin.com/posts/francescodisalvo-pa_66daysofdata-nlp-deeplearning-activity-6793273869177253888-eXPh
