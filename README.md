@@ -827,3 +827,16 @@ In the next days I will start working with NLP on these scraped data!
 `DAY-62` : Today I went through the implementation of LSTM in PyTorch for a sentiment analysis on the fairly well known IMDB dataset. The results are really promising! 
 
 > * Linkedin #62 : https://www.linkedin.com/posts/francescodisalvo-pa_66daysofdata-nlp-deeplearning-activity-6793273869177253888-eXPh
+
+`DAY-63` : Today I faced again one of my "open problems".
+
+How can we label financial news for a Sentiment Analysis? Online there are just a few labelled dataset. I previously tried several techniques such as Vader, TextBlob et simila but they didn't achieve satisfactory results. 
+
+So, I have read a couple of papers and most of them used Supervised Classification without referring to any particular dataset.
+
+In particular the authors of "Efficacy of News Sentiment for Stock Market Prediction" achieved an accuracy among 60% to 90%.
+
+If you have some advices, I would love to hear them!
+
+> * Linkedin #63 : https://www.linkedin.com/posts/francescodisalvo-pa_66daysofdata-machinelearning-finance-activity-6793627544219340800-PI8k
+> * Paper : https://ieeexplore.ieee.org/document/8862265
