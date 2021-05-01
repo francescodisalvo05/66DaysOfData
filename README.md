@@ -841,8 +841,13 @@ If you have some advices, I would love to hear them!
 > * Linkedin #63 : https://www.linkedin.com/posts/francescodisalvo-pa_66daysofdata-machinelearning-finance-activity-6793627544219340800-PI8k
 > * Paper : https://ieeexplore.ieee.org/document/8862265
 
-`DAY-63` : Today I just worked for my current Omdena's project, so I spent a couple of hours scraping data from a website.
+`DAY-64` : Today I just worked for my current Omdena's project, so I spent a couple of hours scraping data from a website.
 
 It is always satisfying when you're able to find the way for scraping autonomously 390 pages full of data with just a for-loop and some preliminary analysis!
 
 > * Linkedin #64 : https://www.linkedin.com/posts/francescodisalvo-pa_66daysofdata-selenium-scraping-activity-6793995150340169729-qpaJ
+
+`DAY-65` : Today I went through a Ted Talk from Marshall Chang regarding the role of AI in Financial Markets. If you're curious, I highly recommend it! 
+
+> * Linkedin #65 : https://www.linkedin.com/posts/francescodisalvo-pa_how-ai-traders-will-dominate-hedge-fund-activity-6794366851330650112-QiSe
+> * YouTube : https://www.youtube.com/watch?v=lzaBbQKUtAA
