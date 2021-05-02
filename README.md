@@ -1,4 +1,4 @@
-<h1 align="center"> #66DaysOfData 
+<h1 align="center"> #66DaysOfData </h1>
 
 <p align="center">
   <img src="images/bg.png" height="500px"/>
