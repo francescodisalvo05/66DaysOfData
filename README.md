@@ -6,7 +6,7 @@
 
  
 <p align="center">
-  💡 The #66DaysOfData challenge consists on learning data science every day for 66 days and sharing the progress on a social media ([see more](https://www.youtube.com/watch?v=qV_AlRwhI3I&t=12s)).
+  💡 The #66DaysOfData challenge consists on learning data science every day for 66 days and sharing the progress on a social media ([see more])(https://www.youtube.com/watch?v=qV_AlRwhI3I&t=12s)).
 </p>
  
 <p align="center">
