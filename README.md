@@ -25,8 +25,8 @@ Francesco
 | Day 8 | Day 20 |  Algorithmic Trading |
 | Day 21 | Day 33 |  Natural Language Processing |
 | Day 34 | Day 37 |  Web Scraping and Text Analysis |
-| Day 34 | Day 47 |  Natural Language Processing - Part 2 |
-| Day 49 | Day 65 |  Reading Papers, Web Scraping, Python, Ted Talks |
+| Day 38 | Day 44 |  Natural Language Processing - Part 2 |
+| Day 45 | Day 65 |  Reading Papers, Web Scraping, Python, Ted Talks |
 
 
 `DAY-0` : Today I discovered two interesting libraries for extracting financial information. The first one is **yFinance** that extracts its information from Yahoo Finance. Thanks to the Ticker module we are able to select one or more tickers. Then, with the **history** method we are allowed to download the historical values in a specific period within a particular interval (daily,weekly..). It provides seven features: Open, High, Low, Close, Volume, Dividends, Stock Splits. Finally, we can gain some other information with the info method (123 in total). These information are related to the geographical location, economical status and so on. 
@@ -533,7 +533,7 @@ As always, feedbacks are always welcome!
 > * Linkedin #36 : https://www.linkedin.com/posts/francescodisalvo-pa_66daysofdata-datascience-machinelearning-activity-6783480099070070784-qqmG
 > * Article : https://towardsdatascience.com/sentiment-analysis-for-stock-price-prediction-in-python-bed40c65d178
 
-`DAY-36` : Today I have read that yesterday Elon Musk tweeted: 
+`DAY-37` : Today I have read that yesterday Elon Musk tweeted: 
 
 "SpaceX is going to put a literal Dogecoin on the literal moon". 
 
