@@ -6,14 +6,14 @@
 
  
 <p align="center">
-  💡 The #66DaysOfData challenge consists on learning data science every day for 66 days and sharing the progress on a social media ([see more])(https://www.youtube.com/watch?v=qV_AlRwhI3I&t=12s)).
+  💡 The <a href="https://www.youtube.com/watch?v=qV_AlRwhI3I&t=12s">#66DaysOfData</a> challenge consists on learning data science every day for 66 days and sharing the progress on a social media
 </p>
  
 <p align="center">
 🎯 It has been a great journey thanks to which I have had the chance to learn more, especially about Financial Machine Learning, Algorithmic Trading and Natural Language Processing. I can definitely say that I have learnt a lot and I have met a lot of amazing people along the way, that enriched, not only my technical skills, but also my desire to learn and share new things!
 </p>
 <p align="center">
-Thank you for your kind support, let's see to the next challenge! 
+Thank you for your kind support, let's see to the next challenge! <br />
 Francesco
 </p>
 
@@ -28,6 +28,7 @@ Francesco
 | Day 38 | Day 44 |  Natural Language Processing - Part 2 |
 | Day 45 | Day 65 |  Reading Papers, Web Scraping, Python, Ted Talks |
 
+***
 
 `DAY-0` : Today I discovered two interesting libraries for extracting financial information. The first one is **yFinance** that extracts its information from Yahoo Finance. Thanks to the Ticker module we are able to select one or more tickers. Then, with the **history** method we are allowed to download the historical values in a specific period within a particular interval (daily,weekly..). It provides seven features: Open, High, Low, Close, Volume, Dividends, Stock Splits. Finally, we can gain some other information with the info method (123 in total). These information are related to the geographical location, economical status and so on. 
 
