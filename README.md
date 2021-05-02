@@ -875,3 +875,12 @@ It is always satisfying when you're able to find the way for scraping autonomous
 
 > * Linkedin #65 : https://www.linkedin.com/posts/francescodisalvo-pa_how-ai-traders-will-dominate-hedge-fund-activity-6794366851330650112-QiSe
 > * YouTube : https://www.youtube.com/watch?v=lzaBbQKUtAA
+
+`DAY-66` : It has been a great journey thanks to which I have had the chance to learn more, especially about Financial Machine Learning, Algorithmic Trading and Natural Language Processing. 
+
+I can definitely say that I have learnt a lot and I have met a lot of amazing people along the way, that enriched, not only my technical skills, but also my desire to learn and share new things!
+
+Thank you for your kind support, let's see to the next challenge! <br />
+Francesco
+
+> * Linkedin #66 : https://www.linkedin.com/posts/francescodisalvo-pa_66daysofdata-datascience-machinelearning-activity-6794696436198989824-9AW6
